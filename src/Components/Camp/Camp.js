@@ -3,6 +3,7 @@ import Styles from "./Camp.module.css";
 export const Camp = () => {
     return (
         <div className = {Styles.container}>
+            <h1 className={Styles.h1}>Природа ждет нас.......</h1>
             <div className = {Styles.campfire_wrapper}>
                 <div className = {Styles.tree_container_back}>
                     <div className = {Styles.tree_8}></div>
