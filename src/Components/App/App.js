@@ -1,8 +1,13 @@
-import { Fire } from "../Fire/Fire";
-import { Camp } from "../Camp/Camp";
+// import { Fire } from "../Fire/Fire";
+// import { Camp } from "../Camp/Camp";
+import {Header} from "../Header/Header.js"
+import GoodsZone from "../GoodsZone/GoodsZone.js";
 
 export const App = () => {
-  return (
-    <Camp />
-  );
-}
+    return (
+        <>
+            <Header />
+            <GoodsZone />
+        </>
+    );
+};

@@ -1,0 +1,12 @@
+.goodsZone {
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    border: 2px dotted green;
+}
