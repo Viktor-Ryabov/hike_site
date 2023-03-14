@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/hike_site/static/css/main.976589ff.css",
-    "main.js": "/hike_site/static/js/main.c8668899.js",
+    "main.css": "/hike_site/static/css/main.0ad8ef13.css",
+    "main.js": "/hike_site/static/js/main.fb9cbd26.js",
     "index.html": "/hike_site/index.html",
-    "main.976589ff.css.map": "/hike_site/static/css/main.976589ff.css.map",
-    "main.c8668899.js.map": "/hike_site/static/js/main.c8668899.js.map"
+    "main.0ad8ef13.css.map": "/hike_site/static/css/main.0ad8ef13.css.map",
+    "main.fb9cbd26.js.map": "/hike_site/static/js/main.fb9cbd26.js.map"
   },
   "entrypoints": [
-    "static/css/main.976589ff.css",
-    "static/js/main.c8668899.js"
+    "static/css/main.0ad8ef13.css",
+    "static/js/main.fb9cbd26.js"
   ]
 }
