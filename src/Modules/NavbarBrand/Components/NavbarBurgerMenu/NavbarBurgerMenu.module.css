@@ -1,21 +1,32 @@
 .navBarMenu{
     margin: 0;
     padding: 0;
-    width: 60%;
-    height: 300px;
     position: fixed;
     top: 0;
     left: 0;
-    background: yellowgreen;
+    animation: aniClose 1.5s forwards;
     display: none;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: stretch;
+    align-items: stretch; */
 }
 .navBarMenu_active{
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: stretch;
+    background-color:  #30BA8F;
+    animation: ani 1.5s forwards;
+}
+
+
+@keyframes ani {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
 }

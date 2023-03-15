@@ -1,13 +1,16 @@
-.logo {
-    margin: 0;
-    padding: 10px;
-    width: 40px;
-    height: 40px;
-    /* border: 7px solid red; */
+.closeIcon {
+    position: fixed;
+    display: block;
+    width: 42px;
+    height: 42px;
+    /* border: 2px solid transparent; */
+    /* border-radius: 40px; */
+    align-self: flex-end;
 }
-.logo:hover {
-    cursor: pointer;
+
+.closeIcon:hover {
     animation: tilt-n-move-shaking 0.5s infinite;
+    cursor: pointer;
 }
 
 @keyframes tilt-n-move-shaking {
@@ -28,6 +31,4 @@
     }
 }
 
-.buttonIsDisabled{
-    display: none;
-}
+.closeIcon:mob
