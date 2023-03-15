@@ -1,0 +1,21 @@
+.navBarMenu{
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    height: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: yellowgreen;
+    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.navBarMenu_active{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}

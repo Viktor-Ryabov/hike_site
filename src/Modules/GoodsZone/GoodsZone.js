@@ -1,4 +1,4 @@
-import { CardTour } from "../CardTour/CardTour";
+import { CardTour } from "../../Components/CardTour/CardTour";
 import Styles from "./GoodsZone.module.css";
 
 const GoodsZone = () => {

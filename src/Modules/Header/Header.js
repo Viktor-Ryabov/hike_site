@@ -1,6 +1,6 @@
-import { Link } from "../Link/Link";
+import { Link } from "../../Components/Link/Link";
 import Styles from "./Header.module.css";
-import {CardTour} from "../CardTour/CardTour.js"
+import {CardTour} from "../../Components/CardTour/CardTour.js"
 
 export const Header = () => {
   return (
