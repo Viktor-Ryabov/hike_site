@@ -3,8 +3,6 @@
     display: block;
     width: 42px;
     height: 42px;
-    /* border: 2px solid transparent; */
-    /* border-radius: 40px; */
     align-self: flex-end;
 }
 
@@ -30,5 +28,3 @@
         transform: translate(0, 0) rotate(0deg);
     }
 }
-
-.closeIcon:mob
