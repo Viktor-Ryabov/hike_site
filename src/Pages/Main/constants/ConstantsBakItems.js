@@ -120,13 +120,13 @@ export const excursionsArray = [
         dificult: "Сложность веселящая",
         name: "Активный квест",
         cost: 3000,
-        image: "",
+        image: "https://fikiwiki.com/uploads/posts/2022-02/1645055506_50-fikiwiki-com-p-shutochnie-kartinki-53.jpg",
     },
     {
         id: 2,
         name: "Долина с рекой",
         hikeLength: 1,
-        dificult: "Пассивынй квест",
+        dificult: "'rcre",
         cost: 4000,
         category: "excursions",
         image: "",
@@ -186,7 +186,7 @@ export const climbingArray = [
         hikeLength: 1,
         dificult: "Легко",
         cost: 4000,
-        
+
         image: "https://h-i.su/wp-content/uploads/2015/10/water_climbing_1-1.jpg",
     },
     {
@@ -226,4 +226,3 @@ export const climbingArray = [
         image: "https://sun9-51.userapi.com/impg/uqVV8codlDTx3TlbHqGHJecDdZHKlzmyew36Ng/dBh6Ya9boC8.jpg?size=604x453&quality=96&sign=512af28e6f73877354497be79b0082cc&type=album",
     },
 ];
-

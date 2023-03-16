@@ -4,8 +4,7 @@ import { useState } from "react";
 import TabItem from "../TabItem/TabItem";
 import TabBatButton from "../TabBatButton/TabBatButton";
 import TabBarContentZone from "../TabBarContentZone/TabBarContentZone";
-import { hikeOneDayArray, climbingArray, questArray } from "../../constants/ConstantsBakItems.js";
-// console.log(hikeOneDayArray)
+import { hikeOneDayArray, excursionsArray, climbingArray, questArray } from "../../constants/ConstantsBakItems.js";
 
 const podsObject = {
     one: "Поход выходного дня",
@@ -83,7 +82,7 @@ const TabBarProducts = () => {
                     toggleState={toggleState}
                     numerTab={3}
                     title={podsObject.three}
-                    data={hikeOneDayArray}
+                    data={excursionsArray}
                 />
                 <TabBarContentZone
                     toggleState={toggleState}
