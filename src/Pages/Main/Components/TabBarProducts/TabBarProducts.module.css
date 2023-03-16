@@ -1,0 +1,32 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 90%;
+  height: 300px;
+  margin: 100px auto 0;
+  word-break: break-all;
+}
+
+.bloc_tabs {
+  display: flex;
+  width: 100%;
+}
+
+button {
+  border: none;
+  
+}
+.content_tabs {
+  flex-grow : 1;
+  background: #f1f1f1;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  border-left: 1px solid rgba(0, 0, 0, 0.274);
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+}
