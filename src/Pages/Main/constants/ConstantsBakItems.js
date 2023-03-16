@@ -15,7 +15,7 @@ export const hikeOneDayArray = [
         dificult: "Сложность средняя",
         cost: 4000,
         category: "one day hike",
-        image: "https://get.pxhere.com/photo/mountainous-landforms-mountain-nature-mountain-range-geographical-feature-wilderness-landform-tree-ecosystem-cloud-ridge-forest-alps-landscape-adventure-mountain-pass-meadow-valley-plateau-walking-lake-national-park-park-1367108.jpg",
+        image: "https://img1.goodfon.ru/original/800x480/0/cc/nebo-gory-sklon-les-reka.jpg",
     },
     {
         id: 3,

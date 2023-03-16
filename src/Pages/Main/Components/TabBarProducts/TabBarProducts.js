@@ -1,7 +1,6 @@
 import Styles from "./TabBarProducts.module.css";
 import React from "react";
 import { useState } from "react";
-import TabItem from "../TabItem/TabItem";
 import TabBatButton from "../TabBatButton/TabBatButton";
 import TabBarContentZone from "../TabBarContentZone/TabBarContentZone";
 import { hikeOneDayArray, excursionsArray, climbingArray, questArray } from "../../constants/ConstantsBakItems.js";
