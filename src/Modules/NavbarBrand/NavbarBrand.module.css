@@ -13,4 +13,5 @@
     display: flex;
     background: #2E8B57;
     border-bottom: 1px solid hsla(0, 0%, 77.6%, 0.4);
+    z-index: 9999;
 }

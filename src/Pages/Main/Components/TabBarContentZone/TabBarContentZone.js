@@ -1,6 +1,9 @@
 import Styles from "./TabBarContentZone.module.css";
+import GoodsZone from "../GoodsZone/GoodsZone";
+import { hikeOneDayArray } from "../../constants/ConstantsBakItems";
 
 const TabBarContentZone = (props) => {
+    // console.log(`TabBarContentZone: ${props}`);
     return (
         <>
             <div
@@ -12,7 +15,7 @@ const TabBarContentZone = (props) => {
             >
                 <h2>{props.title}</h2>
                 <hr />
-                <p>тут будет инфа про {props.title}</p>
+                <GoodsZone hikesArray={props.data}/>
             </div>
         </>
     );

@@ -23,6 +23,7 @@
     align-items: stretch;
     background-color:  #30BA8F;
     animation: ani 1.5s forwards;
+    z-index: 9999;
 }
 
 

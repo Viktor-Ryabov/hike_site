@@ -2,7 +2,8 @@
     margin: 0;
     padding: 10px;
     position: relative;
-    background-color: blue;
+    /* background-color: rgb(130, 150, 128); */
+    
 }
 
 .card__button_like{
@@ -12,7 +13,7 @@
     height: 19px;
     border: none;
     align-self: center;
-    background-image: url(../../img/card__vector.svg);
+    background-image: url(../../../../Images/card__vector.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -26,12 +27,12 @@
 
 .card__button_like:active {
     cursor: pointer;
-    background-image: url(../../img/elements__vectro_active.svg);
+    background-image: url(../../../../Images/elements__vectro_active.svg);
 }
 
 .card__button_like_active {
     cursor: pointer;
-    background-image: url(../../img/elements__vectro_active.svg);
+    background-image: url(../../../../Images/elements__vectro_active.svg);
 }
 
 .card__delete_button {
@@ -43,7 +44,7 @@
     height: 19.3px;
     border: none;
     position: absolute;
-    background-image: url(../../img/deleteVector.svg);
+    background-image: url(../../../../Images/deleteVector.svg);
     background-size: contain;
     background-color: transparent;
     background-repeat: no-repeat;
@@ -79,15 +80,15 @@
     align-items: center;
 }
 
-.card__name_like {
-    margin: 0 15px 0 21px;
-    padding: 0;
+.card__discription {
+    margin: 10px 15px 0 21px;
+    padding: 0 0 15px 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     vertical-align: middle;
-    height: 79px;
+    height: 100px;
     width: 246px;
 }
 
@@ -112,6 +113,7 @@
     background-color: #fff;
     overflow: hidden;
     background: linear-gradient(to bottom, #0000 5%, #fff, #fff);
+    border: 1px black solid;
 }
 
 .card__title {
@@ -123,7 +125,23 @@
     font-size: 24px;
     line-height: 29px;
     color: #000000;
-    width: 200px;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    align-self: center;
+}
+.card__text {
+    margin: 0;
+    padding: 0;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    color: #000000;
+    width: 100%;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;

@@ -12,11 +12,16 @@
   height: 300px;
   margin: 100px auto 0;
   word-break: break-all;
+  
 }
 
 .bloc_tabs {
   display: flex;
   width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
 }
 
 button {
@@ -29,4 +34,5 @@ button {
   border-bottom: 1px solid rgba(0, 0, 0, 0.274);
   border-left: 1px solid rgba(0, 0, 0, 0.274);
   border-right: 1px solid rgba(0, 0, 0, 0.274);
+  
 }
