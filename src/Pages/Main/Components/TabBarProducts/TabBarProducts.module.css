@@ -33,3 +33,15 @@ button {
 .content_tabs {
   flex-grow : 1;
 }
+
+@media screen and (max-width: 900px) {
+  .bloc_tabs{
+    width: 460px;
+  }
+
+@media screen and (max-width: 510px) {
+  .bloc_tabs{
+    width: 230px;
+  }
+}
+}

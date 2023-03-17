@@ -13,7 +13,7 @@ const TabBarContentZone = (props) => {
                         : Styles.content
                 }
             >
-                <h2>{props.title}</h2>
+                {/* <h2>{props.title}</h2> */}
                 <hr />
                 <GoodsZone hikesArray={props.data}/>
             </div>
