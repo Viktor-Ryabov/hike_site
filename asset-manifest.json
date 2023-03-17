@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/hike_site/static/css/main.97dc3f71.css",
-    "main.js": "/hike_site/static/js/main.6fa2b533.js",
+    "main.css": "/hike_site/static/css/main.49448319.css",
+    "main.js": "/hike_site/static/js/main.b67d990a.js",
     "static/media/card__vector.svg": "/hike_site/static/media/card__vector.87ed371465c7a6a1cd01.svg",
     "static/media/deleteVector.svg": "/hike_site/static/media/deleteVector.cbc09a894bdd4c956365.svg",
     "static/media/closeIcon.svg": "/hike_site/static/media/closeIcon.213c3adf12bff1eb0b8894c5231c3f1e.svg",
     "index.html": "/hike_site/index.html",
     "static/media/elements__vectro_active.svg": "/hike_site/static/media/elements__vectro_active.fe17a515669479b1e649.svg",
-    "main.97dc3f71.css.map": "/hike_site/static/css/main.97dc3f71.css.map",
-    "main.6fa2b533.js.map": "/hike_site/static/js/main.6fa2b533.js.map"
+    "main.49448319.css.map": "/hike_site/static/css/main.49448319.css.map",
+    "main.b67d990a.js.map": "/hike_site/static/js/main.b67d990a.js.map"
   },
   "entrypoints": [
-    "static/css/main.97dc3f71.css",
-    "static/js/main.6fa2b533.js"
+    "static/css/main.49448319.css",
+    "static/js/main.b67d990a.js"
   ]
 }
