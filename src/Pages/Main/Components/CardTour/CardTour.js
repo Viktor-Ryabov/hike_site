@@ -1,11 +1,8 @@
 import Styles from "./CardTour.module.css";
 
 export const CardTour = (props) => {
-    console.log(props.item);
     return (
         <>
-            {/* <div className={Styles.cardTour}>{props}</div> */}
-
             <article className={Styles.card}>
                 <div className={Styles.card__rectangle}>
                     <img className={Styles.card__foto} src={props.item.image} alt="" />

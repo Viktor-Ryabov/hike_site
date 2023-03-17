@@ -7,17 +7,19 @@
 .container {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   position: relative;
   width: 90%;
   height: 300px;
   margin: 100px auto 0;
   word-break: break-all;
+  align-items: center;
   
 }
 
 .bloc_tabs {
   display: flex;
-  width: 100%;
+  width: 900px;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: space-between;
@@ -30,9 +32,4 @@ button {
 }
 .content_tabs {
   flex-grow : 1;
-  background: #f1f1f1;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
-  border-left: 1px solid rgba(0, 0, 0, 0.274);
-  border-right: 1px solid rgba(0, 0, 0, 0.274);
-  
 }
