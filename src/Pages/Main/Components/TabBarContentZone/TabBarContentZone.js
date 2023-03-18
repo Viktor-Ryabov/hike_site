@@ -1,6 +1,5 @@
 import Styles from "./TabBarContentZone.module.css";
 import GoodsZone from "../GoodsZone/GoodsZone";
-import { hikeOneDayArray } from "../../constants/ConstantsBakItems";
 
 const TabBarContentZone = (props) => {
     // console.log(`TabBarContentZone: ${props}`);

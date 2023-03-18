@@ -1,8 +1,8 @@
 // import { Fire } from "../Fire/Fire";
 // import { Camp } from "../Camp/Camp";
-import NavbarBrand from "../Modules/NavbarBrand/NavbarBrand";
+import NavbarBrand from "../NavbarBrand/NavbarBrand";
 import Styles from "./App.module.css";
-import TabBarProducts from "../Pages/Main/Components/TabBarProducts/TabBarProducts";
+import TabBarProducts from "../../Pages/Main/Components/TabBarProducts/TabBarProducts";
 
 
 export const App = () => {

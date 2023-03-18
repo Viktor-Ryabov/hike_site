@@ -3,7 +3,7 @@ import React from "react";
 import { useState } from "react";
 import TabBatButton from "../TabBatButton/TabBatButton";
 import TabBarContentZone from "../TabBarContentZone/TabBarContentZone";
-import { hikeOneDayArray, excursionsArray, climbingArray, questArray } from "../../constants/ConstantsBakItems.js";
+import { hikeOneDayArray, excursionsArray, climbingArray, questArray } from "../../../../constants/ConstantsBakItems.js";
 
 const podsObject = {
     one: "Поход выходного дня",
