@@ -5,6 +5,7 @@ import NavbarBurgerMenu from "./Components/NavbarBurgerMenu/NavbarBurgerMenu";
 
 const NavbarBrand = () => {
     const [burgerMenuIsActive, setBurgerMenuState] = useState(false);
+    const [onScrollState, setOnScrollState] = useState(false);
     const openBurgerMenu = () => {
         setBurgerMenuState(true);
     };
@@ -12,9 +13,22 @@ const NavbarBrand = () => {
         setBurgerMenuState(false);
     };
 
+
+
     return (
-        <div className={Styles.navbarBrand}>
-            <NavbarBurgerIcon state={burgerMenuIsActive} changeState={openBurgerMenu} />
+        <div
+            className={`
+                ${
+                    onScrollState == false
+                        ? Styles.navbarBrand
+                        : Styles.navbarBrand_scrolled
+                }`}
+            onScroll={() => setOnScrollState(true)}
+        >
+            <NavbarBurgerIcon
+                state={burgerMenuIsActive}
+                changeState={openBurgerMenu}
+            />
             <NavbarBurgerMenu
                 state={burgerMenuIsActive}
                 changeState={closeBurgerMenu}

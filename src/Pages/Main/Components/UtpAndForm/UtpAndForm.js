@@ -1,13 +1,10 @@
 import Styles from "./UtpAndForm.module.css";
-import TopMenu from "../TopMenu/TopMenu.js";
-import CaptureForm from "../CaptureForm/CaptureForm";
+import CaptureForm from "../CaptureForm/CaptureForm.js";
 
 export const UtpAndForm = () => (
     <section className={Styles.capture}>
-        <p className={Styles.utp}>
-            Строительство домов в Крыму за 4 месяца без увеличения стоимости
-            сметы.
-        </p>
-        <CaptureForm />
+        <div className={Styles.utp}>
+        </div>
+        {/* <CaptureForm /> */}
     </section>
 );

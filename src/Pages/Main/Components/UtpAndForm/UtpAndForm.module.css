@@ -1,33 +1,36 @@
 .utp {
     margin: 0;
-    padding: 0;
+    padding: 20px 0 0 0;
     align-self: center;
     justify-self: flex-start;
+    margin: 0;
+    padding: 0;
+    line-height: 45px;
+    color: black;
+    width: 100%;
+    text-align: center;
+    background-image: url(../../../../Images/mountainsInClouds.jpg);
+    background-size: cover;
+    min-height: 300px;
+    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0), 40%, rgb(255, 255, 255)); */
+}
+
+h1{
     font-weight: 800;
     font-size: 36px;
-    margin: 0;
-    padding: 25px;
-    line-height: 45px;
-    color: whitesmoke;
-    width: 60%;
-    border: 2px solid rgba(0, 255, 255, 0.5);
-    background: rgba(0, 255, 255, 0.4);
-    box-shadow: 0 0 0.1rem #fff, 0 0 0.2rem #fff, 0 0 0.3rem #0fa,
-        0 0 0.5rem #0fa, 0 0 1rem #0fa, inset 0 0 1.3rem #0fa;
 }
 
 @media screen and (max-width: 940px) {
-    .utp {
+    .h1 {
         font-size: 24px;
         line-height: 28px;
     }
 }
 
 @media screen and (max-width: 680px) {
-    .utp {
-        margin-top: 20px;
-        font-size: 24px;
-        width: 90%;
+    .h1 {
+        font-size: 44px;
+        width: 100%;
         line-height: 28px;
     }
 }
@@ -40,11 +43,12 @@
 
 .capture {
     margin: 0;
-    padding: 40px 10% 40px 10%;
+    padding: 0;
     height: fit-content;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    color: alicebluec;
 }
 @media screen and (max-width: 680px) {
     .capture {
