@@ -1,5 +1,5 @@
 import Styles from "./CloseIcon.module.css";
-import Icon from "../../../Images/closeIcon.svg";
+import Icon from "../../Images/closeIcon.svg";
 
 const CloseIcon = (props) => {
     return (

@@ -1,7 +1,7 @@
 import Styles from "./NavbarBurgerMenu.module.css";
 import { useState } from "react";
 import { NavBarLink } from "../NavBarLink/NavBarLink";
-import CloseIcon from "../../UI/CloseIcon";
+import CloseIcon from "../../../../UI/CloseIcon/CloseIcon.js";
 
 const NavbarBurgerMenu = (props) => {
     return (
