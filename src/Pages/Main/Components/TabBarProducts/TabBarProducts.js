@@ -22,7 +22,7 @@ const TabBarProducts = () => {
     };
 
     return (
-        <div className={Styles.container}>
+        <section className={Styles.container}>
             <div className={Styles.bloc_tabs}>
                 <TabBatButton
                     toggleState={toggleState}
@@ -102,7 +102,7 @@ const TabBarProducts = () => {
                     data={questArray}
                 />
             </div>
-        </div>
+        </section>
     );
 };
 export default TabBarProducts;

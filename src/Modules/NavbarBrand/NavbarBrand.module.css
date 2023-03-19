@@ -3,6 +3,13 @@
     padding: 0;
     border: 0;
     outline: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.h2{
+    margin: 0;
+    padding: 0;
+
 }
 .navbarBrand {
     margin: 0;
@@ -11,23 +18,19 @@
     height: 80px;
     align-items: center;
     display: flex;
-    background: #2E8B57;
+    background: #1c8a4c;
     border-bottom: 1px solid hsla(0, 0%, 77.6%, 0.4);
-    z-index: 9999;
+    z-index: 9999999;
+    position: -webkit-sticky; /* Safari */
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
+    font-weight: 800;
+    justify-content: center;
 }
 
-.navbarBrand_scrolled{
-    height: 40px;
-    position: fixed;
-    top: 0;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    align-items: center;
-    display: flex;
-    background: #2E8B57;
-    border-bottom: 1px solid hsla(0, 0%, 77.6%, 0.4);
-    z-index: 9999;
+@media screen and (max-width: 700px) {
+    .navbarBrand {
+        height: 40px;
+    }
 }

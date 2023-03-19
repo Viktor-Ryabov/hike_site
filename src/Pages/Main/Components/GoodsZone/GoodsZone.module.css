@@ -9,7 +9,7 @@
     align-content: center;
     flex-wrap: wrap;
     align-items: center;
-        justify-content: center;
+    justify-content: center;
     /* border: 2px dotted green; */
 }
 
@@ -17,4 +17,4 @@
     .goodsZone {
         margin-top: 20px;
     }
-  }
+}

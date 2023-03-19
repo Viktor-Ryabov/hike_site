@@ -53,6 +53,7 @@ export const hikeOneDayArray = [
         cost: 9000,
         image: "https://sportishka.com/uploads/posts/2022-11/1667475316_52-sportishka-com-p-podnozhya-gori-pinterest-59.jpg",
     },
+   
 ];
 
 export const questArray = [
