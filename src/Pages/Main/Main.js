@@ -7,15 +7,6 @@ const Main = () => {
     return (
         <section className={Styles.main}>
             <UtpAndForm />
-            <UtpAndForm />
-            <UtpAndForm />
-            <UtpAndForm />
-            <UtpAndForm />
-            <UtpAndForm />
-            <UtpAndForm />
-            <UtpAndForm />
-            <UtpAndForm />
-
             <TabBarProducts />
         </section>
     );
