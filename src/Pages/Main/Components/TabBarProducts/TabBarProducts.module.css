@@ -9,7 +9,7 @@
   flex-direction: column;
   justify-content: flex-start;
   width: 90%;
-  height: 300px;
+  height: fit-content;
   margin: 20px auto 0;
   align-items: center;
   
@@ -29,7 +29,8 @@ button {
   
 }
 .content_tabs {
-  flex-grow : 1;
+  /* flex-grow : 1; */
+  display: flex;
 }
 
 @media screen and (max-width: 900px) {

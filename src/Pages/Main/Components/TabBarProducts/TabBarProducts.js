@@ -3,7 +3,12 @@ import React from "react";
 import { useState } from "react";
 import TabBatButton from "../TabBatButton/TabBatButton";
 import TabBarContentZone from "../TabBarContentZone/TabBarContentZone";
-import { hikeOneDayArray, excursionsArray, climbingArray, questArray } from "../../../../constants/ConstantsBakItems.js";
+import {
+    hikeOneDayArray,
+    excursionsArray,
+    climbingArray,
+    questArray,
+} from "../../../../constants/ConstantsBakItems.js";
 
 const podsObject = {
     one: "Поход выходного дня",
@@ -21,9 +26,35 @@ const TabBarProducts = () => {
         setToggleState(index);
     };
 
+    const productsSwitcher = () => {
+        switch (toggleState) {
+            case 1:
+                return hikeOneDayArray;
+                break;
+            case 2:
+                return questArray ;
+                break;
+            case 3:
+                return excursionsArray ;
+                break;
+            case 4:
+                return climbingArray;
+                break;
+            case 5:
+                return excursionsArray;
+                break;
+            case 6:
+                return excursionsArray;
+                break;
+        }
+    };
+
     return (
         <section className={Styles.container}>
             <div className={Styles.bloc_tabs}>
+                {/* {hikesArray.map((hike) => (
+                    <CardTour item={hike} key={hike.id} id={hike.id} />
+                ))} */}
                 <TabBatButton
                     toggleState={toggleState}
                     toggleTab={toggleTab}
@@ -63,45 +94,12 @@ const TabBarProducts = () => {
                 />
             </div>
 
-            <div className={Styles.content_tabs}>
-                <TabBarContentZone
-                    toggleState={toggleState}
-                    numerTab={1}
-                    title={podsObject.one}
-                    data={hikeOneDayArray}
-
-                />
-                <TabBarContentZone
-                    toggleState={toggleState}
-                    numerTab={2}
-                    title={podsObject.two}
-                    data={questArray}
-                />
-                <TabBarContentZone
-                    toggleState={toggleState}
-                    numerTab={3}
-                    title={podsObject.three}
-                    data={excursionsArray}
-                />
-                <TabBarContentZone
-                    toggleState={toggleState}
-                    numerTab={4}
-                    title={podsObject.four}
-                    data={climbingArray}
-                />
-                <TabBarContentZone
-                    toggleState={toggleState}
-                    numerTab={5}
-                    title={podsObject.five}
-                    data={hikeOneDayArray}
-                />
-                <TabBarContentZone
-                    toggleState={toggleState}
-                    numerTab={6}
-                    title={podsObject.six}
-                    data={questArray}
-                />
-            </div>
+            {/* <div className={Styles.content_tabs}> */}
+            <TabBarContentZone
+                toggleState={toggleState}
+                numerTab={toggleState}
+                data={productsSwitcher()}
+            />
         </section>
     );
 };
