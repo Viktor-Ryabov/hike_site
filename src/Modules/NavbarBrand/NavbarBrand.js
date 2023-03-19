@@ -13,18 +13,8 @@ const NavbarBrand = () => {
         setBurgerMenuState(false);
     };
 
-
-
     return (
-        <div
-            className={`
-                ${
-                    onScrollState == false
-                        ? Styles.navbarBrand
-                        : Styles.navbarBrand_scrolled
-                }`}
-            onScroll={() => setOnScrollState(true)}
-        >
+        <div className={Styles.navbarBrand}>
             <NavbarBurgerIcon
                 state={burgerMenuIsActive}
                 changeState={openBurgerMenu}
@@ -33,6 +23,7 @@ const NavbarBrand = () => {
                 state={burgerMenuIsActive}
                 changeState={closeBurgerMenu}
             />
+            <h2 className={Styles.h2}>HEADER</h2>
         </div>
     );
 };
