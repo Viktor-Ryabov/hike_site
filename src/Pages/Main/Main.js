@@ -16,7 +16,7 @@ const Main = () => {
             <UtpAndForm />
             <UtpAndForm />
 
-            {/* <TabBarProducts /> */}
+            <TabBarProducts />
         </section>
     );
 };
