@@ -14,10 +14,11 @@ const NavbarBurgerMenu = (props) => {
         >
             <h2> Меню</h2>
             <CloseIcon closeMenu={props.changeState} />
-            <NavBarLink text="qwert1" />
-            <NavBarLink text="qwert2" />
-            <NavBarLink text="qwert3" />
-            <NavBarLink text="qwert4" />
+            <NavBarLink text="О нас" />
+            <NavBarLink text="Походная еда" />
+            <NavBarLink text="Для новичков" />
+            <NavBarLink text="Найти напаркника" />
+            <NavBarLink text="Найти группу для похода" />
         </div>
     );
 };
