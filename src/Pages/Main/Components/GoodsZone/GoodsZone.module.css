@@ -10,7 +10,6 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    /* border: 2px dotted green; */
 }
 
 @media screen and (max-width: 510px) {
