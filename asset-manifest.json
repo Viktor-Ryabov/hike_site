@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/hike_site/static/css/main.7788f69f.css",
+    "main.css": "/hike_site/static/css/main.7f25fd5e.css",
     "main.js": "/hike_site/static/js/main.974877ce.js",
     "static/media/video_Arhiz_8_min.mp4": "/hike_site/static/media/video_Arhiz_8_min.97ac4c454562a3acb86f.mp4",
     "static/media/mountainsInClouds.jpg": "/hike_site/static/media/mountainsInClouds.a368bcf44493dbaceca2.jpg",
+    "static/media/rya_sport_tourizm_logo.png": "/hike_site/static/media/rya_sport_tourizm_logo.1e47c97e640bd8dfc9b3.png",
     "static/media/ryabov__logo_turizm_1.svg": "/hike_site/static/media/ryabov__logo_turizm_1.120d4ab99986bb6c58271cf97db80dcc.svg",
     "static/media/tent_camp_camping_icon_250714.png": "/hike_site/static/media/tent_camp_camping_icon_250714.859c018701cc8f05363b.png",
     "static/media/tree_spring_forest_trees_icon_250691.png": "/hike_site/static/media/tree_spring_forest_trees_icon_250691.a64090b3a52b2e2db140.png",
     "static/media/plant_eco_ecology_icon_250706.png": "/hike_site/static/media/plant_eco_ecology_icon_250706.cdaa1240c293814aa1e2.png",
-    "static/media/ryabov__logo_turizm_2.svg": "/hike_site/static/media/ryabov__logo_turizm_2.723ea1afd5975fedd203.svg",
     "static/media/closeIcon.svg": "/hike_site/static/media/closeIcon.213c3adf12bff1eb0b8894c5231c3f1e.svg",
     "index.html": "/hike_site/index.html",
-    "main.7788f69f.css.map": "/hike_site/static/css/main.7788f69f.css.map",
+    "main.7f25fd5e.css.map": "/hike_site/static/css/main.7f25fd5e.css.map",
     "main.974877ce.js.map": "/hike_site/static/js/main.974877ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.7788f69f.css",
+    "static/css/main.7f25fd5e.css",
     "static/js/main.974877ce.js"
   ]
 }
