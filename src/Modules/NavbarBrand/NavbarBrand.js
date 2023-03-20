@@ -30,8 +30,8 @@ const NavbarBrand = () => {
                 />
             </div>
             <div className={Styles.buttonSection}>
-            <NavbarButton text="СПЛАНИРОВАТЬ ПОХОД" />
-            <NavbarButton text="СХОДИТЬ НА ВАИФЕРАТУ" />
+                <NavbarButton text="СПЛАНИРОВАТЬ ПОХОД" />
+                <NavbarButton text="СХОДИТЬ НА ВАИФЕРАТУ" />
             </div>
 
             {/* <h2 className={Styles.h2}>HEADER</h2> */}
