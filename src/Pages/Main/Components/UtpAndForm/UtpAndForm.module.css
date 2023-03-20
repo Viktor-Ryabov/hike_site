@@ -60,6 +60,7 @@ h1 {
     background-image: url(../../../../Images/mountainsInClouds.jpg);
     background-size: cover;
     z-index: 1;
+    width: calc(100% - 20px);
 }
 /* @media screen and (max-width: 680px) {
     .capture {

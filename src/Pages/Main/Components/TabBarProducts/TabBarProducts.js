@@ -52,15 +52,11 @@ const TabBarProducts = () => {
     return (
         <section className={Styles.container}>
             <div className={Styles.bloc_tabs}>
-                {/* {hikesArray.map((hike) => (
-                    <CardTour item={hike} key={hike.id} id={hike.id} />
-                ))} */}
                 <TabBatButton
                     toggleState={toggleState}
                     toggleTab={toggleTab}
                     text={podsObject.one}
                     numberTab={1}
-                    // array={hikeArrayData(1)}
                 />
                 <TabBatButton
                     toggleState={toggleState}
