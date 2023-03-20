@@ -1,17 +1,16 @@
-.logo{
+.logo {
     margin: 0;
     padding: 0;
     width: 200px;
-    height: 60px;
+    height: 100%;
     background-image: url(../../Images/ryabov__logo_turizm_2.svg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
 }
 
 @media screen and (max-width: 700px) {
-    .logo{
+    .logo {
         width: 100px;
-        height: 30px;
     }
-    
 }
