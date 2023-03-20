@@ -1,0 +1,15 @@
+.menuIcon{
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    z-index: 100;
+}
+
+@media screen and (max-width: 700px) {
+    .menuIcon{
+        width: 40px;
+        /* display: none; */
+        height: 40px;
+    }
+    
+}

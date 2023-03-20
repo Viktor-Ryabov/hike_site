@@ -12,7 +12,8 @@
 
 @media screen and (max-width: 700px) {
     .leftSideNavbar{
-        width: 100px;
+        width: 100%;
+        height: fit-content;
     }
     
 }
@@ -33,7 +34,15 @@
 
 @media screen and (max-width: 700px) {
     .leftSideNavbarSmall{
-        width: 40px;
+        width: 100%;
+        /* display: none; */
+        position: relative;
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        top: 0;
     }
     
 }

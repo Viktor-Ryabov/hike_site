@@ -4,7 +4,11 @@ import Footer from "../Footer/Footer";
 import Main from "../../Pages/Main/Main";
 import LeftSideNavbar from "../LeftSideNavbar/LeftSideNavbar";
 import NavbarButton from "../NavbarBrand/Components/NavbarButton/NavbarButton";
-import CloseIcon from "../../UI/CloseIcon/CloseIcon";
+import MenuIcon from "../../UI/MenuIcon/MenuIcon";
+import icon1 from "../../Images/bonfire_fire_icon_250693.png";
+import icon2 from "../../Images/plant_eco_ecology_icon_250706.png";
+import icon3 from "../../Images/tent_camp_camping_icon_250714.png";
+import icon4 from "../../Images/tree_spring_forest_trees_icon_250691.png";
 
 export const App = () => {
     return (
@@ -16,7 +20,10 @@ export const App = () => {
                     <NavbarButton text="КВЕСТ-ПОХОД" />
                 </LeftSideNavbar>
                 <LeftSideNavbar size="small">
-                    <CloseIcon />
+                    <MenuIcon link={icon2}/>
+                    <MenuIcon link={icon1}/>
+                    <MenuIcon link={icon3}/>
+                    <MenuIcon link={icon4}/>
                 </LeftSideNavbar>
                 <Main />
             </section>
