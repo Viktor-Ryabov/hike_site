@@ -31,10 +31,10 @@ const NavbarBrand = () => {
                 />
                 <Contacts />
             </div>
-            <div className={Styles.buttonSection}>
+            {/* <div className={Styles.buttonSection}>
                 <NavbarButton text="СПЛАНИРОВАТЬ ПОХОД" />
                 <NavbarButton text="СХОДИТЬ НА ВАИФЕРАТУ" />
-            </div>
+            </div> */}
 
             {/* <h2 className={Styles.h2}>HEADER</h2> */}
             

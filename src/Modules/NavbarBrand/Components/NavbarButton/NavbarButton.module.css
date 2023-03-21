@@ -1,31 +1,26 @@
 .button {
-    background: #f4f5f6;
+    background: none;
     height: 100%;
     font-size: 18px;
     font-weight: 700;
-    line-height: 26px;
+    line-height: 20px;
     color: #797979;
     text-align: center;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    padding: 0 0 10px 10px;
+    margin-bottom: 10px;
+    overflow-wrap: normal;
     flex-grow: 1;
-    flex-shrink: 0;
-    /* width: 200px; */
-    /* border: 1px solid black */
 }
-
-@media screen and (max-width: 1450px) {
-    .button {
-        /* height: 71px; */
-        font-size: 14px;
-        line-height: 20px;
-    }
-}
-/* .button:nth-child(even) {
-    background: white;
-    
+/* .button:last-child {
+    margin-bottom: 0px;
+    justify-content: flex-start;
+    overflow-wrap:normal;
 } */
+
+
 
 .button:hover {
     cursor: pointer;
@@ -36,7 +31,7 @@
 
 @keyframes ani {
     0% {
-        background: #e0e1e4;
+        background: white;
         color: #262f3b;
     }
     100% {
@@ -47,10 +42,9 @@
 
 @media screen and (max-width: 1000px) {
     .button {
-        /* height: 40px; */
         font-size: 10px;
-        line-height: 16px;
-        padding: 5px;
+        padding: 0 0 5px 10px;
+        margin-bottom: 5px;
     }
 }
 @media screen and (max-width: 700px) {
@@ -58,5 +52,7 @@
         height: 40px;
         outline: 1px solid rgb(216, 214, 214);
         box-sizing: border-box;
+        justify-content: center;
+        margin-bottom: 0px;
     }
 }
