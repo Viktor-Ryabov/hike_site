@@ -17,6 +17,7 @@ export const App = () => {
             <section className={Styles.contentSection}>
                 <LeftSideNavbar size="big">
                     <NavbarButton text="О НАС" />
+                    <NavbarButton text="SUPACK - ПОХОДНАЯ ЕДА" />
                     <NavbarButton text="ВСЕ О ПИАТНИИ В ПОХОДЕ" />
                     <NavbarButton text="СНАРЯЖЕНИЕ" />
                     <NavbarButton text="ЧТО ТАКОЕ КВЕСТ-ПОХОД" />
