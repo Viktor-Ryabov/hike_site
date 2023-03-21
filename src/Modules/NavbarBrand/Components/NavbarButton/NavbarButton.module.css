@@ -54,5 +54,7 @@
         box-sizing: border-box;
         justify-content: center;
         margin-bottom: 0px;
+        align-items: center;
+        padding: 0;
     }
 }

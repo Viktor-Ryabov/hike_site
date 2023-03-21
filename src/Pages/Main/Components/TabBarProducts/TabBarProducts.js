@@ -20,7 +20,7 @@ const podsObject = {
 };
 
 const TabBarProducts = () => {
-    const [toggleState, setToggleState] = useState(1);
+    const [toggleState, setToggleState] = useState(0);
 
     const toggleTab = (index) => {
         setToggleState(index);
@@ -28,14 +28,17 @@ const TabBarProducts = () => {
 
     const productsSwitcher = () => {
         switch (toggleState) {
+            case 0:
+                return [];
+                break;
             case 1:
                 return hikeOneDayArray;
                 break;
             case 2:
-                return questArray ;
+                return questArray;
                 break;
             case 3:
-                return excursionsArray ;
+                return excursionsArray;
                 break;
             case 4:
                 return climbingArray;
@@ -51,6 +54,7 @@ const TabBarProducts = () => {
 
     return (
         <section className={Styles.container}>
+            <h1>Чем заняться:</h1>
             <div className={Styles.bloc_tabs}>
                 <TabBatButton
                     toggleState={toggleState}

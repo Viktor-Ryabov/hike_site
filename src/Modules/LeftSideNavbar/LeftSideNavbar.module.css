@@ -16,16 +16,13 @@
 .leftSideNavbarSmall {
     margin: 0;
     padding: 0;
-    height: 100vh;
-    /* top: 120px; */
+    height: calc(100vh - 120px);
     width: 50px;
     background-color: #2e8b57;
-    /* border-right: black solid 1px; */
     display: flex;
     flex-direction: column;
     position: sticky;
     top: 120px;
-    left: 0;
 }
 
 @media screen and (max-width: 1000px) {
@@ -39,11 +36,14 @@
 }
 @media screen and (max-width: 700px) {
     .leftSideNavbar {
-        position: relative;
         width: 100%;
         flex-direction: row;
         flex-wrap: wrap;
-        top: 0;
+        top: 80px;
+        z-index: 999;
+        /* padding-top: 20px; */
+        margin-top: 20px;
+        
     }
     .leftSideNavbarSmall {
         width: 100%;

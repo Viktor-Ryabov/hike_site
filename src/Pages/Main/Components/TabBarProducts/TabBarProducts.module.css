@@ -1,46 +1,64 @@
-*, ::before, ::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
+
 .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: 100%;
-  height: fit-content;
-  margin: 20px auto 0;
-  align-items: center;
-  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: fit-content;
+    margin: 20px auto 0;
+    align-items: center;
 }
 
 .bloc_tabs {
-  display: flex;
-  width: 540px;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: space-between;
-  justify-content: center;
+    display: flex;
+    width: 570px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
 }
 
 button {
-  border: none;
-  
+    border: none;
 }
 .content_tabs {
-  /* flex-grow : 1; */
-  display: flex;
+    /* flex-grow : 1; */
+    display: flex;
+}
+
+h1{
+  margin: 0 0 15px 0;
+  padding: 0;
+  color: black;
+  font-size: 25px;
+}
+h2{
+  margin: 0;
+  padding: 0;
+  height: 100px;
 }
 
 @media screen and (max-width: 900px) {
-  .bloc_tabs{
-    width: 90%;
-  }
-
-@media screen and (max-width: 510px) {
-  .bloc_tabs{
-    width: 230px;
-  }
+    .bloc_tabs {
+        width: 90%;
+    }
 }
+
+@media screen and (max-width: 700px) {
+    .bloc_tabs {
+        flex-direction: row;
+        justify-content: center;
+        width: 90%;
+        height: fit-content;
+        margin: 0;
+        border-radius: 30px;
+    }
 }
