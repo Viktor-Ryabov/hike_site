@@ -21,6 +21,7 @@ export const App = () => {
                     <NavbarButton text="ВСЕ О ПИАТНИИ В ПОХОДЕ" />
                     <NavbarButton text="СНАРЯЖЕНИЕ" />
                     <NavbarButton text="ЧТО ТАКОЕ КВЕСТ-ПОХОД" />
+                    <NavbarButton text="ВИДЫ ОТДЫХА" />
                 </LeftSideNavbar>
                 <LeftSideNavbar size="small">
                     <MenuIcon link={icon2}/>
@@ -30,7 +31,7 @@ export const App = () => {
                 </LeftSideNavbar>
                 <Main />
             </section>
-            {/* <Footer /> */}
+            <Footer />
         </div>
     );
 };
