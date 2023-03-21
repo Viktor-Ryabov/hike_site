@@ -1,21 +1,30 @@
 {
   "files": {
-    "main.css": "/hike_site/static/css/main.7f25fd5e.css",
-    "main.js": "/hike_site/static/js/main.974877ce.js",
+    "main.css": "/hike_site/static/css/main.a317de75.css",
+    "main.js": "/hike_site/static/js/main.8c09ef46.js",
     "static/media/video_Arhiz_8_min.mp4": "/hike_site/static/media/video_Arhiz_8_min.97ac4c454562a3acb86f.mp4",
     "static/media/mountainsInClouds.jpg": "/hike_site/static/media/mountainsInClouds.a368bcf44493dbaceca2.jpg",
+    "static/media/Andika-Regular.woff": "/hike_site/static/media/Andika-Regular.554663333c665fea08dc.woff",
+    "static/media/Andika-Regular.woff2": "/hike_site/static/media/Andika-Regular.5b2024f13ab6eca55952.woff2",
     "static/media/rya_sport_tourizm_logo.png": "/hike_site/static/media/rya_sport_tourizm_logo.1e47c97e640bd8dfc9b3.png",
     "static/media/ryabov__logo_turizm_1.svg": "/hike_site/static/media/ryabov__logo_turizm_1.120d4ab99986bb6c58271cf97db80dcc.svg",
+    "static/media/DINOT.woff": "/hike_site/static/media/DINOT.95915c1f334e54d20c3f.woff",
+    "static/media/DINOT-Light.woff": "/hike_site/static/media/DINOT-Light.18800ef6455dfc2f18cf.woff",
     "static/media/tent_camp_camping_icon_250714.png": "/hike_site/static/media/tent_camp_camping_icon_250714.859c018701cc8f05363b.png",
+    "static/media/DINOT.woff2": "/hike_site/static/media/DINOT.c2628d0be5c0a7d808bc.woff2",
+    "static/media/DINOT-Light.woff2": "/hike_site/static/media/DINOT-Light.c510e14d1741a58f77e6.woff2",
     "static/media/tree_spring_forest_trees_icon_250691.png": "/hike_site/static/media/tree_spring_forest_trees_icon_250691.a64090b3a52b2e2db140.png",
     "static/media/plant_eco_ecology_icon_250706.png": "/hike_site/static/media/plant_eco_ecology_icon_250706.cdaa1240c293814aa1e2.png",
-    "static/media/closeIcon.svg": "/hike_site/static/media/closeIcon.213c3adf12bff1eb0b8894c5231c3f1e.svg",
+    "static/media/burger_menu_icom-M.svg": "/hike_site/static/media/burger_menu_icom-M.a9218481af139683556c7f20774041c7.svg",
+    "static/media/phone-symbol.svg": "/hike_site/static/media/phone-symbol.1edc775dae71f0303a26b6b37491a519.svg",
+    "static/media/telegram_icon.svg": "/hike_site/static/media/telegram_icon.9059b7aae31034426b72c5e92e80a956.svg",
     "index.html": "/hike_site/index.html",
-    "main.7f25fd5e.css.map": "/hike_site/static/css/main.7f25fd5e.css.map",
-    "main.974877ce.js.map": "/hike_site/static/js/main.974877ce.js.map"
+    "static/media/closeIcon.svg": "/hike_site/static/media/closeIcon.213c3adf12bff1eb0b8894c5231c3f1e.svg",
+    "main.a317de75.css.map": "/hike_site/static/css/main.a317de75.css.map",
+    "main.8c09ef46.js.map": "/hike_site/static/js/main.8c09ef46.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f25fd5e.css",
-    "static/js/main.974877ce.js"
+    "static/css/main.a317de75.css",
+    "static/js/main.8c09ef46.js"
   ]
 }
