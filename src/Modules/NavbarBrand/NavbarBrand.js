@@ -5,6 +5,7 @@ import NavbarBurgerMenu from "./Components/NavbarBurgerMenu/NavbarBurgerMenu";
 import Logo from "../../UI/Logo/Logo";
 import { NavBarLink } from "./Components/NavBarLink/NavBarLink";
 import NavbarButton from "./Components/NavbarButton/NavbarButton";
+import Contacts from "../../UI/Contasts/Contacts";
 
 const NavbarBrand = () => {
     const [burgerMenuIsActive, setBurgerMenuState] = useState(false);
@@ -35,6 +36,7 @@ const NavbarBrand = () => {
             </div>
 
             {/* <h2 className={Styles.h2}>HEADER</h2> */}
+            <Contacts />
         </div>
     );
 };

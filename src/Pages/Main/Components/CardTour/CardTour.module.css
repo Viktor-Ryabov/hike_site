@@ -57,7 +57,7 @@
     padding: 0;
     font-family: Inter, Arial, Helvetica, sans-serif;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 600;
     font-size: 24px;
     line-height: 29px;
     color: #000000;
@@ -71,9 +71,8 @@
 .card__text {
     margin: 0;
     padding: 0;
-    font-family: Inter, Arial, Helvetica, sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 200;
     font-size: 20px;
     line-height: 22px;
     color: #000000;
@@ -83,4 +82,13 @@
     overflow: hidden;
     display: block;
     align-self: center;
+}
+
+@media screen and (max-width: 510px) {
+    .card {
+        width: 95%;
+    }
+        .card__foto{
+            width: 100%;
+    }
 }

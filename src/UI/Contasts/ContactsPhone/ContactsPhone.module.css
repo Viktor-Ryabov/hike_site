@@ -1,0 +1,10 @@
+.contactsPhone{
+    margin: 0;
+    padding: 0;
+}
+.contactsPhone:hover{
+    cursor: pointer;
+    opacity: 80%;
+    background: none;
+    color: #2E8B57;
+}
