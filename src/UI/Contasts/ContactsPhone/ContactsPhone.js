@@ -4,10 +4,10 @@ import Icon from "../../../Images/phone-symbol.svg"
 
 const ContactsPhone = () => {
     return (
-        <div className={Styles.contactsPhone}>
+        <a className={Styles.contactsPhone} href="tel:+79789012010">
             <img className={Styles.iconPhone}src={Icon} alt="телефон"/>
-            <a>+7 (978) 901 2010</a>
-        </div>
+            +7 (978) 901 2010
+        </a>
     );
 };
 

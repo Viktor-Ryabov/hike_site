@@ -5,12 +5,16 @@
     flex-direction: row;
     /* align-items: center; */
     justify-content: center;
+    text-decoration: none;
+    color: black;
 }
 .contactsPhone:hover{
     cursor: pointer;
     opacity: 80%;
     background: none;
     color: #2E8B57;
+    fill: #2E8B57;
+    
 }
 
 .iconPhone{

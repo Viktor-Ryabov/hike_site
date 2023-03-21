@@ -4,11 +4,7 @@
     width: 100px;
     opacity: 60%;
     background-size: cover;
-    
-
 }
-
-
 
 .logo:hover {
     cursor: pointer;
@@ -33,23 +29,22 @@
     }
 }
 
-.buttonIsDisabled{
+.buttonIsDisabled {
     display: none;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
     .logo {
         height: 100%;
         position: absolute;
         top: 0px;
         left: 0px;
     }
-    
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px) {
     .logo {
         width: 25px;
         padding: 0;
+        margin-left: 25px;
     }
-    
 }
