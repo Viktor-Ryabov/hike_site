@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hike_site/static/css/main.dec65f6f.css",
-    "main.js": "/hike_site/static/js/main.903349b7.js",
+    "main.css": "/hike_site/static/css/main.9c73fb8d.css",
+    "main.js": "/hike_site/static/js/main.aadcca22.js",
     "static/media/video_Arhiz_8_min.mp4": "/hike_site/static/media/video_Arhiz_8_min.97ac4c454562a3acb86f.mp4",
     "static/media/mountainsInClouds.jpg": "/hike_site/static/media/mountainsInClouds.a368bcf44493dbaceca2.jpg",
     "static/media/Andika-Regular.woff": "/hike_site/static/media/Andika-Regular.554663333c665fea08dc.woff",
@@ -20,11 +20,11 @@
     "static/media/telegram_icon.svg": "/hike_site/static/media/telegram_icon.9059b7aae31034426b72c5e92e80a956.svg",
     "index.html": "/hike_site/index.html",
     "static/media/closeIcon.svg": "/hike_site/static/media/closeIcon.213c3adf12bff1eb0b8894c5231c3f1e.svg",
-    "main.dec65f6f.css.map": "/hike_site/static/css/main.dec65f6f.css.map",
-    "main.903349b7.js.map": "/hike_site/static/js/main.903349b7.js.map"
+    "main.9c73fb8d.css.map": "/hike_site/static/css/main.9c73fb8d.css.map",
+    "main.aadcca22.js.map": "/hike_site/static/js/main.aadcca22.js.map"
   },
   "entrypoints": [
-    "static/css/main.dec65f6f.css",
-    "static/js/main.903349b7.js"
+    "static/css/main.9c73fb8d.css",
+    "static/js/main.aadcca22.js"
   ]
 }
