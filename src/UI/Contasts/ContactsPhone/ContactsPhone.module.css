@@ -1,0 +1,33 @@
+.contactsPhone{
+    margin: 0 0 5px 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+.contactsPhone:hover{
+    cursor: pointer;
+    opacity: 80%;
+    background: none;
+    color: #2E8B57;
+    fill: #2E8B57;
+    animation: ani 1s forwards;
+}
+@keyframes ani {
+    0% {
+        color: black;
+    }
+    100% {
+        color: #2E8B57;
+    }
+}
+
+
+.iconPhone{
+    margin: 0 5px 0 0;
+    padding: 0;
+    width: 15px;
+}

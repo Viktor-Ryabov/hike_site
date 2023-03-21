@@ -2,7 +2,7 @@
     margin: 0 auto;
     margin-top: 40px;
     padding: 0;
-    width: 90%;
+    width: 100%;
     height: fit-content;
     display: flex;
     flex-direction: row;
@@ -15,5 +15,6 @@
 @media screen and (max-width: 510px) {
     .goodsZone {
         margin-top: 20px;
+        width: 100%;
     }
 }

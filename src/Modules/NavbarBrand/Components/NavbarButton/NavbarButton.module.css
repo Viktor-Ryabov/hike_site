@@ -1,48 +1,58 @@
 .button {
-    background: #e0e1e4;
-    height: 80px;
+    background: none;
+    height: 100%;
     font-size: 18px;
     font-weight: 700;
-    line-height: 26px;
-    color: #262f3b;
+    line-height: 20px;
+    color: #797979;
     text-align: center;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    padding: 0 0 10px 10px;
+    margin-bottom: 10px;
+    overflow-wrap: normal;
     flex-grow: 1;
-    flex-shrink: 0;
-    /* width: 200px; */
-    /* border: 1px solid black */
 }
+/* .button:last-child {
+    margin-bottom: 0px;
+    justify-content: flex-start;
+    overflow-wrap:normal;
+} */
 
-@media screen and (max-width: 1450px) {
-    .button {
-        
-        /* height: 71px; */
-        font-size: 14px;
-        line-height: 20px;
-    }
-}
-.button:last-child{
-    background: white
-}
 
-.button:hover{
+
+.button:hover {
     cursor: pointer;
-    background-color: #2E8B57;
+    background-color: #2e8b57;
     color: white;
+    animation: ani 1s forwards;
+}
+
+@keyframes ani {
+    0% {
+        background: white;
+        color: #262f3b;
+    }
+    100% {
+        background-color: #2e8b57;
+        color: white;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-    .button{
-        /* height: 40px; */
+    .button {
         font-size: 10px;
-        line-height: 16px;
-        padding: 5px;
+        padding: 0 0 5px 10px;
+        margin-bottom: 5px;
     }
 }
 @media screen and (max-width: 700px) {
-    .button{
+    .button {
         height: 40px;
+        outline: 1px solid rgb(216, 214, 214);
+        box-sizing: border-box;
+        justify-content: center;
+        margin-bottom: 0px;
     }
 }

@@ -5,6 +5,7 @@ import NavbarBurgerMenu from "./Components/NavbarBurgerMenu/NavbarBurgerMenu";
 import Logo from "../../UI/Logo/Logo";
 import { NavBarLink } from "./Components/NavBarLink/NavBarLink";
 import NavbarButton from "./Components/NavbarButton/NavbarButton";
+import Contacts from "../../UI/Contasts/Contacts";
 
 const NavbarBrand = () => {
     const [burgerMenuIsActive, setBurgerMenuState] = useState(false);
@@ -28,13 +29,15 @@ const NavbarBrand = () => {
                     state={burgerMenuIsActive}
                     changeState={closeBurgerMenu}
                 />
+                <Contacts />
             </div>
-            <div className={Styles.buttonSection}>
+            {/* <div className={Styles.buttonSection}>
                 <NavbarButton text="СПЛАНИРОВАТЬ ПОХОД" />
                 <NavbarButton text="СХОДИТЬ НА ВАИФЕРАТУ" />
-            </div>
+            </div> */}
 
             {/* <h2 className={Styles.h2}>HEADER</h2> */}
+            
         </div>
     );
 };

@@ -16,8 +16,11 @@ export const App = () => {
             <NavbarBrand />
             <section className={Styles.contentSection}>
                 <LeftSideNavbar size="big">
+                    <NavbarButton text="О НАС" />
+                    <NavbarButton text="SUPACK - ПОХОДНАЯ ЕДА" />
                     <NavbarButton text="ВСЕ О ПИАТНИИ В ПОХОДЕ" />
-                    <NavbarButton text="КВЕСТ-ПОХОД" />
+                    <NavbarButton text="СНАРЯЖЕНИЕ" />
+                    <NavbarButton text="ЧТО ТАКОЕ КВЕСТ-ПОХОД" />
                 </LeftSideNavbar>
                 <LeftSideNavbar size="small">
                     <MenuIcon link={icon2}/>
@@ -27,7 +30,7 @@ export const App = () => {
                 </LeftSideNavbar>
                 <Main />
             </section>
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 };
