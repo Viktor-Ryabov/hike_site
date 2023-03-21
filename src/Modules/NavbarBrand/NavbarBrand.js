@@ -29,6 +29,7 @@ const NavbarBrand = () => {
                     state={burgerMenuIsActive}
                     changeState={closeBurgerMenu}
                 />
+                <Contacts />
             </div>
             <div className={Styles.buttonSection}>
                 <NavbarButton text="СПЛАНИРОВАТЬ ПОХОД" />
@@ -36,7 +37,7 @@ const NavbarBrand = () => {
             </div>
 
             {/* <h2 className={Styles.h2}>HEADER</h2> */}
-            <Contacts />
+            
         </div>
     );
 };

@@ -1,5 +1,5 @@
 import Styles from "./NavbarBurgerIcon.module.css";
-import LogoMenu from "../../../../Images/burger_menu.png";
+import LogoMenu from "../../../../Images/burger_menu_icom-M.svg";
 
 const NavbarBurgerIcon = (props) => {
     // console.log(props);

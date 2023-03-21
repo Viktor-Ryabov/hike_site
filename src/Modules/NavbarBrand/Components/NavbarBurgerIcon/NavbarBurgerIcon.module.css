@@ -1,24 +1,14 @@
 .logo {
     margin: 0;
-    padding: 10px;
+    padding: 25px;
     width: 100px;
-    /* height: 100px; */
-    background: #2E8B57;
-    /* border: 7px solid red; */
-    border-radius: 50px;
     opacity: 60%;
-    position: absolute;
-    top: 15px;
-    left: 10px;
+    background-size: cover;
+    
+
 }
 
-@media screen and (max-width: 700px){
-    .logo {
-        width: 25px;
-        padding: 0;
-    }
-    
-}
+
 
 .logo:hover {
     cursor: pointer;
@@ -45,4 +35,21 @@
 
 .buttonIsDisabled{
     display: none;
+}
+
+@media screen and (max-width: 1200px){
+    .logo {
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    
+}
+@media screen and (max-width: 700px){
+    .logo {
+        width: 25px;
+        padding: 0;
+    }
+    
 }
