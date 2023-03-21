@@ -35,7 +35,7 @@ button {
 
 @media screen and (max-width: 900px) {
   .bloc_tabs{
-    width: 360px;
+    width: 90%;
   }
 
 @media screen and (max-width: 510px) {

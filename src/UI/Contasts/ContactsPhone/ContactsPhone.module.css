@@ -14,8 +14,17 @@
     background: none;
     color: #2E8B57;
     fill: #2E8B57;
-    
+    animation: ani 1s forwards;
 }
+@keyframes ani {
+    0% {
+        color: black;
+    }
+    100% {
+        color: #2E8B57;
+    }
+}
+
 
 .iconPhone{
     margin: 0 5px 0 0;

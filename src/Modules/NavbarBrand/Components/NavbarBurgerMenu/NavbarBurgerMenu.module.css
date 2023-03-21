@@ -4,7 +4,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    animation: aniClose 1.5s forwards;
+    animation: aniClose 0.5s forwards;
     display: none;
     /* display: flex;
     flex-direction: column;
@@ -22,7 +22,7 @@
     justify-content: flex-start;
     align-items: stretch;
     background-color:  #30BA8F;
-    animation: ani 1.5s forwards;
+    animation: ani 0.5s forwards;
     z-index: 9999;
 }
 

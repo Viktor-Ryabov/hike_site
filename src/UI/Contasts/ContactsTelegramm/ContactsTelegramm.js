@@ -5,13 +5,13 @@ import Icon from "../../../Images/telegram_icon.svg";
 const ContactsTelegramm = () => {
     return (
         <>
-            <a className={Styles.contactsTelegramm} href="https://t.me/@rya_lt">
+            <a className={Styles.contactsTelegramm} href="https://t.me/rya_lt">
                 <img
                     className={Styles.telegrammIcon}
                     src={Icon}
                     alt="телефон"
                 />
-                @motusvita_Crimea
+                НАПИСАТЬ
             </a>
         </>
     );
