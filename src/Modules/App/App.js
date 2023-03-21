@@ -31,7 +31,7 @@ export const App = () => {
                 </LeftSideNavbar>
                 <Main />
             </section>
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 };
