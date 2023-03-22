@@ -7,7 +7,6 @@ import MainVideo from "./Components/MainVideo/MainVideo";
 const Main = () => {
     return (
         <section className={Styles.main}>
-            {/* <UtpAndForm /> */}
             <MainVideo />
             <TabBarProducts />
         </section>

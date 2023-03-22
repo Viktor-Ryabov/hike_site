@@ -1,10 +1,11 @@
 import React from 'react'
 import Styles from "./NavbarButton.module.css";
+import { Link } from 'react-router-dom';
 
 
 const NavbarButton = (props) => {
   return (
-    <button className={Styles.button}>{props.text}</button>
+    <Link to={props.to} className={Styles.button}>{props.text}</Link>
   )
 }
 
