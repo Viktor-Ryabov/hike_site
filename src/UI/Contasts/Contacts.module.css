@@ -12,14 +12,18 @@
     position: absolute;
     right: 25px;
     text-align: left;
+    grid-area: contacts;
     
 }
 
 @media screen and (max-width: 700px){
     .contacts {
         font-size: 8px;
-        right: 5px;
-
+        position: relative;
+        width: 100%;
+        right: 0px;
+        margin: 10px 0 10px 10px;
+        height: 35px;
     }
     
 }

@@ -1,7 +1,6 @@
 .button {
     margin: 0;
     padding: 0;
-    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,6 +8,7 @@
     position: absolute;
     top: 0px;
     left: 0px;
+    grid-area: burgeerLogo;
 }
 .logo {
     margin: 0;
@@ -48,9 +48,21 @@
 
 
 @media screen and (max-width: 700px) {
-    .logo {
-        width: 25px;
+    .button {
+        position:inherit;
+        width: 100%;
         padding: 0;
-        margin-left: 5px;
+        grid-area: burgerLogo;
+        height: -moz-fit-content;
+        height: fit-content;
+        align-self: end;
+        justify-content: flex-start;
+        margin-left: 10px;
+        
+    }
+    .logo{
+        padding: 0px;
+        width: 30px;
+        
     }
 }
