@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hike_site/static/css/main.919beff7.css",
+    "main.css": "/hike_site/static/css/main.91e66a77.css",
     "main.js": "/hike_site/static/js/main.7a260ba6.js",
     "static/media/video_Arhiz_8_min.mp4": "/hike_site/static/media/video_Arhiz_8_min.97ac4c454562a3acb86f.mp4",
     "static/media/mountainsInClouds.jpg": "/hike_site/static/media/mountainsInClouds.a368bcf44493dbaceca2.jpg",
@@ -21,11 +21,11 @@
     "static/media/telegram_icon.svg": "/hike_site/static/media/telegram_icon.9059b7aae31034426b72c5e92e80a956.svg",
     "index.html": "/hike_site/index.html",
     "static/media/closeIcon.svg": "/hike_site/static/media/closeIcon.213c3adf12bff1eb0b8894c5231c3f1e.svg",
-    "main.919beff7.css.map": "/hike_site/static/css/main.919beff7.css.map",
+    "main.91e66a77.css.map": "/hike_site/static/css/main.91e66a77.css.map",
     "main.7a260ba6.js.map": "/hike_site/static/js/main.7a260ba6.js.map"
   },
   "entrypoints": [
-    "static/css/main.919beff7.css",
+    "static/css/main.91e66a77.css",
     "static/js/main.7a260ba6.js"
   ]
 }
