@@ -1,9 +1,9 @@
 .logo {
     margin: 0;
     padding: 0;
-    width: 300px;
+    width: 120px;
     height: 100%;
-    background-image: url(../../Images/rya_sport_tourizm_logo.png);
+    background-image: url(../../Images/mountains_logo.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -11,19 +11,21 @@
 
 @media screen and (max-width: 700px) {
     .logo {
-        width: 170px;
-        height: 80%;
+        width: 70px;
+        height: 100%;
     }
 }
+
+
 
 .logo_small {
     margin: 0;
     padding: 0;
     height: 100%;
-    background-image: url(../../Images/rya_sport_tourizm_logo.png);
+    background-image: url(../../Images/mountains_logo.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 100px;
+    width: 60px;
 }
 

@@ -20,7 +20,7 @@ const podsObject = {
 };
 
 const TabBarProducts = () => {
-    const [toggleState, setToggleState] = useState(0);
+    const [toggleState, setToggleState] = useState(1);
 
     const toggleTab = (index) => {
         setToggleState(index);
@@ -54,7 +54,7 @@ const TabBarProducts = () => {
 
     return (
         <section className={Styles.container}>
-            <h1>Чем заняться:</h1>
+            <h1 className={Styles.h1}>Чем предлагаем заняться:</h1>
             <div className={Styles.bloc_tabs}>
                 <TabBatButton
                     toggleState={toggleState}
