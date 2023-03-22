@@ -5,9 +5,7 @@ const Logo = (props) => {
     return (
         <div
             className={`${
-                props.size === "small"
-                    ? Styles.logo_small
-                    : Styles.logo
+                props.size === "small" ? Styles.logo_small : Styles.logo
             }`}
         ></div>
     );
