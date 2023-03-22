@@ -6,6 +6,7 @@ import Logo from "../../UI/Logo/Logo";
 import Contacts from "../../UI/Contasts/Contacts";
 import LogoMountains from "../../UI/LogoMountains/LogoMountains";
 import LogoSection from "../../UI/LogoSection/LogoSection.js";
+import { Link } from "react-router-dom";
 
 const NavbarBrand = () => {
     const [burgerMenuIsActive, setBurgerMenuState] = useState(false);
@@ -19,7 +20,9 @@ const NavbarBrand = () => {
     return (
         <div className={Styles.navbarBrand}>
             <div className={Styles.logoSection}>
-                <LogoSection size=""/>
+                {/* <Link to="/" className={Styles.link}> */}
+                    <LogoSection size="" />
+                {/* </Link> */}
                 <NavbarBurgerIcon
                     state={burgerMenuIsActive}
                     changeState={openBurgerMenu}

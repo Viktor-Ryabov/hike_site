@@ -1,14 +1,15 @@
 import Styles from "./LogoSection.module.css";
 import LogoMountains from "../LogoMountains/LogoMountains";
 import Logo from "../Logo/Logo";
+import { Link } from "react-router-dom";
 
 const LogoSection = (props) => {
-    console.log(props)
+    console.log(props);
     return (
-        <section className={Styles.logoSection}>
-            <LogoMountains size={props.size} />
-            <Logo size={props.size} />
-        </section>
+        <Link to="/" className={Styles.logoSection}>
+                <LogoMountains size={props.size} />
+                <Logo size={props.size} />
+        </Link>
     );
 };
 
