@@ -1,15 +1,13 @@
 import Styles from "./FotoAbout.module.css";
 
 const FotoAbout = (props) => {
-    console.log(props);
+    console.log(props.image)
     return (
-        <div className={Styles.image}>
             <img
                 className={Styles.image}
                 src={props.image}
-                alt="портрет Натальи"
+                alt="портрет"
             />
-        </div>
     );
 };
 

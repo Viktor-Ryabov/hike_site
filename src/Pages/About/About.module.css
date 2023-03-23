@@ -1,16 +1,9 @@
 .page{
     margin-top: 20px;
     min-height: calc(100vh - 120px);
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    grid-template-areas: 
-    "fotoNata articleNata"
-    "foroViktor articleViktor";
+display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    min-width: calc(100% - 350px);
 }
 
 @media screen and (max-width: 1000px) {
