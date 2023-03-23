@@ -4,10 +4,11 @@
     font-family: Inter, Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 40px;
     line-height: 163%;
     color: black;
     grid-area: paragrah;
+    text-align: justify;
   }
   
   .article:last-of-type {
