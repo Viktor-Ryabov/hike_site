@@ -4,7 +4,6 @@ import Logo from "../Logo/Logo";
 import { Link } from "react-router-dom";
 
 const LogoSection = (props) => {
-    console.log(props);
     return (
         <Link to="/" className={Styles.logoSection}>
                 <LogoMountains size={props.size} />

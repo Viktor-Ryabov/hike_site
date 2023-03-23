@@ -1,20 +1,20 @@
 .page{
+    margin-top: 20px;
     min-height: calc(100vh - 120px);
-    display: flex;
+display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    font-size: 45px;
-    width: calc(100% - 350px);
 }
 
 @media screen and (max-width: 1000px) {
-    .main{
+    .page{
         width: calc(100% - 205px);
     }
 }
 @media screen and (max-width: 700px) {
-    .main{
-        width: 100%;
+    .page{
+        width: 90%;
+        margin: 20px auto 0 auto;
+        min-height: calc(100vh - 210px);
     }
 }
