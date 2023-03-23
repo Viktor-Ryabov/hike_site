@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/hike_site/static/css/main.3b98a5a2.css",
-    "main.js": "/hike_site/static/js/main.f9b38ac9.js",
+    "main.css": "/hike_site/static/css/main.13b8318f.css",
+    "main.js": "/hike_site/static/js/main.f79dd3cb.js",
     "static/media/video_Arhiz_8_min.mp4": "/hike_site/static/media/video_Arhiz_8_min.97ac4c454562a3acb86f.mp4",
     "static/media/mountainsInClouds.jpg": "/hike_site/static/media/mountainsInClouds.a368bcf44493dbaceca2.jpg",
+    "static/media/foroVika.jpg": "/hike_site/static/media/foroVika.a7e9d4e2e06a82a95c16.jpg",
+    "static/media/Varan.jpg": "/hike_site/static/media/Varan.e51f84edd2544cdc0477.jpg",
+    "static/media/Nata.jpg": "/hike_site/static/media/Nata.574ab88decf75061271f.jpg",
     "static/media/Andika-Regular.woff": "/hike_site/static/media/Andika-Regular.554663333c665fea08dc.woff",
     "static/media/Andika-Regular.woff2": "/hike_site/static/media/Andika-Regular.5b2024f13ab6eca55952.woff2",
     "static/media/rya_sport_tourizm_logo.png": "/hike_site/static/media/rya_sport_tourizm_logo.1e47c97e640bd8dfc9b3.png",
@@ -21,11 +24,11 @@
     "static/media/telegram_icon.svg": "/hike_site/static/media/telegram_icon.9059b7aae31034426b72c5e92e80a956.svg",
     "index.html": "/hike_site/index.html",
     "static/media/closeIcon.svg": "/hike_site/static/media/closeIcon.213c3adf12bff1eb0b8894c5231c3f1e.svg",
-    "main.3b98a5a2.css.map": "/hike_site/static/css/main.3b98a5a2.css.map",
-    "main.f9b38ac9.js.map": "/hike_site/static/js/main.f9b38ac9.js.map"
+    "main.13b8318f.css.map": "/hike_site/static/css/main.13b8318f.css.map",
+    "main.f79dd3cb.js.map": "/hike_site/static/js/main.f79dd3cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b98a5a2.css",
-    "static/js/main.f9b38ac9.js"
+    "static/css/main.13b8318f.css",
+    "static/js/main.f79dd3cb.js"
   ]
 }
