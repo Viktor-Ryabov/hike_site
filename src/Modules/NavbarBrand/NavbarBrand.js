@@ -20,9 +20,7 @@ const NavbarBrand = () => {
     return (
         <div className={Styles.navbarBrand}>
             <div className={Styles.logoSection}>
-                {/* <Link to="/" className={Styles.link}> */}
                     <LogoSection size="" />
-                {/* </Link> */}
                 <NavbarBurgerIcon
                     state={burgerMenuIsActive}
                     changeState={openBurgerMenu}

@@ -3,6 +3,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import NavbarBrand from "../NavbarBrand/NavbarBrand";
 import Main from "../../Pages/Main/Main";
 import About from "../../Pages/About/About.js";
+import LeftSideSpacer from "../LeftSideSpacer/LeftSideSpacer";
 import Equipment from "../../Pages/Equipment/Equipment.js";
 import EventsTypes from "../../Pages/EventsTypes/EventsTypes.js";
 import FoodInHike from "../../Pages/FoodInHike/FoodInHike.js";
@@ -17,7 +18,7 @@ import icon1 from "../../Images/bonfire_fire_icon_250693.png";
 import icon2 from "../../Images/plant_eco_ecology_icon_250706.png";
 import icon3 from "../../Images/tent_camp_camping_icon_250714.png";
 import icon4 from "../../Images/tree_spring_forest_trees_icon_250691.png";
-import { Routes, Route, } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 export const App = () => {
     return (
@@ -25,32 +26,8 @@ export const App = () => {
             <div className={Styles.app}>
                 <NavbarBrand />
                 <section className={Styles.contentSection}>
-                    <LeftSideNavbar size="big">
-                        <NavbarButton to="/" text="ГЛАВНАЯ" />
-                        <NavbarButton to="/about" text="О НАС" />
-                        <NavbarButton to="/excursions" text="ЭКСКУСРИИ" />
-                        <NavbarButton
-                            to="/supack"
-                            text="SUPACK - ПОХОДНАЯ ЕДА"
-                        />
-                        <NavbarButton
-                            to="/foodInHike"
-                            text="ВСЕ О ПИАТНИИ В ПОХОДЕ"
-                        />
-                        <NavbarButton to="/equipment" text="СНАРЯЖЕНИЕ" />
-                        <NavbarButton
-                            to="/whatIsQuestHike"
-                            text="ЧТО ТАКОЕ КВЕСТ-ПОХОД"
-                        />
-                        <NavbarButton to="/eventsTypes" text="ВИДЫ ОТДЫХА" />
-                        <NavbarButton to="/video" text="НАШИ ФИЛЬМЫ" />
-                    </LeftSideNavbar>
-                    <LeftSideNavbar size="small">
-                        <MenuIcon link={icon2} />
-                        <MenuIcon link={icon1} />
-                        <MenuIcon link={icon3} />
-                        <MenuIcon link={icon4} />
-                    </LeftSideNavbar>
+                    <LeftSideNavbar />
+                    <LeftSideSpacer />
                     <Routes>
                         <Route path="*" element={<Main />} />
                         <Route path="/" element={<Main />} />
@@ -67,7 +44,6 @@ export const App = () => {
                         />
                     </Routes>
                 </section>
-                {/* <Footer /> */}
             </div>
         </Router>
     );
