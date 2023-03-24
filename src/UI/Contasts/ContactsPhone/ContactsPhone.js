@@ -6,7 +6,7 @@ const ContactsPhone = () => {
     return (
         <a className={Styles.contactsPhone} href="tel:+79789012010">
             <img className={Styles.iconPhone}src={Icon} alt="телефон"/>
-            ПОЗВОНИТЬ
+            +7 (978) 901-2010
         </a>
     );
 };

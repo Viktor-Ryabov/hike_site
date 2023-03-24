@@ -1,4 +1,4 @@
-.contactsPhone{
+.contactsVK{
     margin: 0;
     padding: 0;
     display: flex;
@@ -8,13 +8,12 @@
     text-decoration: none;
     color: black;
 }
-.contactsPhone:hover{
+.contactsVK:hover{
     cursor: pointer;
     opacity: 80%;
     background: none;
     color: #2E8B57;
-    fill: #2E8B57;
-    animation: ani 1s forwards;
+    animation: ani 0.5s forwards;
 }
 @keyframes ani {
     0% {
@@ -24,9 +23,7 @@
         color: #2E8B57;
     }
 }
-
-
-.iconPhone{
+.vkIcon{
     margin: 0 5px 0 0;
     padding: 0;
     width: 15px;

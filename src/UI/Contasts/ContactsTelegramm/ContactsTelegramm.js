@@ -11,7 +11,7 @@ const ContactsTelegramm = () => {
                     src={Icon}
                     alt="телефон"
                 />
-                НАПИСАТЬ
+                НАПИСАТЬ В TELEGRAMM
             </a>
         </>
     );

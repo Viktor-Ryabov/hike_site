@@ -73,10 +73,9 @@
     }
     .logoSection {
         display: grid;
-        grid-template-columns: 100px calc(100% - 100px);
-        grid-template-rows: 40px 55px;
+        grid-template-columns: 30% 70%;
+        grid-template-rows:max-content;
         grid-template-areas:
-        "contacts logo"
         "contacts logo";
         align-items: center;
         justify-items: center;

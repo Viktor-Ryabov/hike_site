@@ -1,0 +1,20 @@
+.page{
+    min-height: calc(100vh - 120px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    width: calc(100% - 350px);
+}
+
+@media screen and (max-width: 1000px) {
+    .page{
+        width: calc(100% - 205px);
+    }
+}
+@media screen and (max-width: 700px) {
+    .page{
+        width: 100%;
+    }
+}
