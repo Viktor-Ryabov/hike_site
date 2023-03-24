@@ -9,6 +9,7 @@ import FoodInHike from "../../Pages/FoodInHike/FoodInHike.js";
 import Supack from "../../Pages/Supack/Supack.js";
 import Video from "../../Pages/Video/Video.js";
 import WhatIsQuestHike from "../../Pages/WhatIsQuestHike/WhatIsQuestHike.js";
+import Excursions from "../../Pages/Excursions/Excursions";
 import LeftSideNavbar from "../LeftSideNavbar/LeftSideNavbar";
 import NavbarButton from "../NavbarBrand/Components/NavbarButton/NavbarButton";
 import MenuIcon from "../../UI/MenuIcon/MenuIcon";
@@ -27,6 +28,7 @@ export const App = () => {
                     <LeftSideNavbar size="big">
                         <NavbarButton to="/" text="ГЛАВНАЯ" />
                         <NavbarButton to="/about" text="О НАС" />
+                        <NavbarButton to="/excursions" text="ЭКСКУСРИИ" />
                         <NavbarButton
                             to="/supack"
                             text="SUPACK - ПОХОДНАЯ ЕДА"
@@ -58,6 +60,7 @@ export const App = () => {
                         <Route path="foodInHike" element={<FoodInHike />} />
                         <Route path="supack" element={<Supack />} />
                         <Route path="video" element={<Video />} />
+                        <Route path="excursions" element={<Excursions />} />
                         <Route
                             path="whatIsQuestHike"
                             element={<WhatIsQuestHike />}
