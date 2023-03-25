@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hike_site/static/css/main.bb0292c5.css",
-    "main.js": "/hike_site/static/js/main.857546ee.js",
+    "main.css": "/hike_site/static/css/main.966f7f00.css",
+    "main.js": "/hike_site/static/js/main.356a151c.js",
     "static/media/video_Arhiz_8_min.mp4": "/hike_site/static/media/video_Arhiz_8_min.97ac4c454562a3acb86f.mp4",
     "static/media/mountainsInClouds.jpg": "/hike_site/static/media/mountainsInClouds.a368bcf44493dbaceca2.jpg",
     "static/media/foroVika.jpg": "/hike_site/static/media/foroVika.a7e9d4e2e06a82a95c16.jpg",
@@ -23,11 +23,11 @@
     "static/media/phone-symbol.svg": "/hike_site/static/media/phone-symbol.1edc775dae71f0303a26b6b37491a519.svg",
     "static/media/telegram_icon.svg": "/hike_site/static/media/telegram_icon.ac3c315964511863f57eff2a516e1d52.svg",
     "index.html": "/hike_site/index.html",
-    "main.bb0292c5.css.map": "/hike_site/static/css/main.bb0292c5.css.map",
-    "main.857546ee.js.map": "/hike_site/static/js/main.857546ee.js.map"
+    "main.966f7f00.css.map": "/hike_site/static/css/main.966f7f00.css.map",
+    "main.356a151c.js.map": "/hike_site/static/js/main.356a151c.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb0292c5.css",
-    "static/js/main.857546ee.js"
+    "static/css/main.966f7f00.css",
+    "static/js/main.356a151c.js"
   ]
 }
