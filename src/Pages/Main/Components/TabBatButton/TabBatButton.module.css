@@ -10,18 +10,62 @@
     transition: background-color 0.5s;
     /* border-radius: 10px; */
     outline: 1px solid rgb(224, 222, 222);
-  }
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
 
-  .tabs:hover{
+.tabs:hover {
     cursor: pointer;
-    opacity: 80%;
-    background-color: rgb(137, 229, 137);
+    letter-spacing: -1px;
+    /* opacity: 80%;
+    background-color: rgb(137, 229, 137); */
 
-  }
-  
-  .active_tabs  {
+
+}
+
+.tabs { background-color: #66A182; }
+.tabs{
+  color: #FFF;
+  transition: all 0.5s;
+  position: relative;
+}
+.tabs::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(255,255,255,0.1);
+  transition: all 0.3s;
+}
+.tabs:hover::before {
+  opacity: 0 ;
+  transform: scale(0.5,0.5);
+}
+.tabs::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border: 1px solid rgba(255,255,255,0.5);
+  transform: scale(1.2,1.2);
+}
+.tabs:hover::after {
+  opacity: 1;
+  transform: scale(1,1);
+}
+
+.active_tabs {
     /* border-radius: 10px; */
-    background: #2E8B57;
+    background: #2e8b57;
     padding: 15px;
     text-align: center;
     width: 160px;
@@ -32,18 +76,23 @@
     /* font-size: 15px; */
     font-weight: 400;
     outline: none;
-    align-content:stretch;
+    align-content: stretch;
     color: rgb(255, 255, 255);
-  }
+    margin: 5px;
+    border-radius: 5px;
 
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1), 0 1px 6px rgba(0, 0, 0, 0.05),
+        0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1),
+        8px 16px 16px rgba(0, 0, 0, 0.15), 8px 32px 32px rgba(0, 0, 0, 0.15);
+}
 
-  @media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
     .tabs {
-      width: fit-content;
-      flex-grow: 1;
-    } 
-    .active_tabs{
-      width: fit-content;
-      flex-grow: 4;
-    } 
-  }
+        width: fit-content;
+        flex-grow: 1;
+    }
+    .active_tabs {
+        width: fit-content;
+        flex-grow: 4;
+    }
+}

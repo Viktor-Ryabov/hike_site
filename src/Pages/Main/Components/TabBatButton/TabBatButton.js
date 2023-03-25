@@ -10,7 +10,7 @@ const TabBatButton = (props) => {
             }`}
             onClick={() => props.toggleTab(props.numberTab)}
         >
-            {props.text}
+            <span>{props.text}</span>
         </button>
     );
 };

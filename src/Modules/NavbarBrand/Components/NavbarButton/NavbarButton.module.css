@@ -62,5 +62,7 @@
         margin-bottom: 0px;
         align-items: center;
         padding: 5px;
+        margin: 5px;
+        border-radius: 5px;
     }
 }

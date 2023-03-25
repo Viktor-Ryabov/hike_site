@@ -19,7 +19,7 @@
 
 .bloc_tabs {
     display: flex;
-    width: 570px;
+    width: 600px;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: space-between;
