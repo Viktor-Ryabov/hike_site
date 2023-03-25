@@ -17,12 +17,16 @@
         height: fit-content;
     }
 }
+@media screen and (max-width: 800px) {
+    .leftSideNavbar {
+        top: 100px;
+    }
+}
 @media screen and (max-width: 700px) {
     .leftSideNavbar {
         width: 100%;
         flex-direction: row;
         flex-wrap: wrap;
-        top: 110px;
         z-index: 999;
         /* padding-top: 20px; */
         margin-top: 20px;

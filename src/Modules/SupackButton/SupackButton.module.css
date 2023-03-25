@@ -1,0 +1,54 @@
+.button {
+    margin: 0 0 0 15px;
+    width: 150px;
+    height: 70%;
+    outline: solid black 1px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: supack;
+}
+
+.button:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.h4 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+@media screen and (max-width: 800px){
+    .button {
+        width: 100px;
+        height: 60%;
+    }
+    .h4 {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+    
+    .text {
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 12px;
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    .button {
+        height: 50%
+    }
+}
