@@ -5,83 +5,34 @@
     outline: 0;
 }
 
-.link{
-    list-style: none;
-}
-
-.h2 {
-    margin: 0;
-    padding: 0;
-}
 .navbarBrand {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 120px;
-    align-items: center;
     display: flex;
     flex-direction: row;
     background: white;
-    /* border-bottom: 1px solid hsla(0, 0%, 77.6%, 0.8); */
     z-index: 9999999;
-    position: -webkit-sticky; /* Safari */
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
-    justify-content: center;
-    align-items: center;
-}
-
-/* .buttonSection {
-    height: 100%;
-    display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 50%;
-} */
-
-.logoSection {
-    height: 100%;
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    /* justify-content: flex-start; */
-    width: 100%;
-    justify-content: center;
 }
 
-@media screen and (max-width: 1200px) {
-    /* .buttonSection {
-        display: none;
-    } */
-    .logoSection {
-        width: 100%;
-        justify-content: center;
-    }
-}
-
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .navbarBrand {
-        height: 110px;
-        margin: 0;
-        flex-direction: column;
-        position: sticky;
-        top: 0;
-        padding: 0;
+        height: 100px;
     }
-    .logoSection {
+}
+@media screen and (max-width: 550px) {
+    .navbarBrand {
+        height: 160px;
         display: grid;
-        grid-template-columns: 30% 70%;
-        grid-template-rows:max-content;
-        grid-template-areas:
-        "contacts logo";
-        align-items: center;
-        justify-items: center;
-        align-content: center;
-        width: 100%;
-        height: 100%;
-
+        grid-template-columns: fit-content auto;
+        grid-template-rows: 80px 80px;
+        grid-template-areas: 
+        " supack logo"
+        " contacts contacts";
     }
 }

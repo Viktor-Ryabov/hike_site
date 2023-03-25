@@ -1,29 +1,36 @@
 .contacts{
-    margin: 0;
+    margin: 0 15px 0 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: flex-end;
+    justify-content: center;
     width: fit-content;
-    font-size: 15px;
+    font-size: 14px;
+    line-height: 20px;
     text-decoration: none;
-    flex-grow:1;
-    position: absolute;
-    right: 25px;
     text-align: left;
     grid-area: contacts;
+    height: 70%;
     
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 800px){
     .contacts {
-        font-size: 8px;
-        position: relative;
-        width: 100%;
-        right: 0px;
-        margin: 10px 0 10px 10px;
-        height: 35px;
+        font-size: 10px;
+        line-height: 14px;
     }
     
+}
+
+@media screen and (max-width: 550px) {
+    .contacts {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 95%
+        
+    };
 }
