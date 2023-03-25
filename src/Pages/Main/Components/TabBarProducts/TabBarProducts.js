@@ -10,6 +10,7 @@ import {
     questArray,
 } from "../../../../constants/constantsBakItems.js";
 
+
 const podsObject = {
     one: "Поход выходного дня",
     two: "Квест на природе",
@@ -53,8 +54,8 @@ const TabBarProducts = () => {
     };
 
     return (
-        <section className={Styles.container}>
-            <h1 className={Styles.h1}>Чем предлагаем заняться:</h1>
+        <section className={Styles.container} >
+            <h1 className={Styles.h1} id="products">Чем предлагаем заняться:</h1>
             <div className={Styles.bloc_tabs}>
                 <TabBatButton
                     toggleState={toggleState}
