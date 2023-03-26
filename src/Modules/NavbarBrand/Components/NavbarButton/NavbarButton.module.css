@@ -15,17 +15,10 @@
     flex-grow: 1;
     text-decoration: none;
 }
-/* .button:last-child {
-    margin-bottom: 0px;
-    justify-content: flex-start;
-    overflow-wrap:normal;
-} */
 
-.activeButton{
+.activeButton {
     background-color: #2e8b57;
 }
-
-
 
 .button:hover {
     cursor: pointer;
