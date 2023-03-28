@@ -10,7 +10,6 @@ import {
     questArray,
 } from "../../../../constants/constantsBakItems.js";
 
-
 const podsObject = {
     one: "Поход выходного дня",
     two: "Квест на природе",
@@ -29,33 +28,28 @@ const TabBarProducts = () => {
 
     const productsSwitcher = () => {
         switch (toggleState) {
-            case 0:
-                return [];
-                break;
             case 1:
                 return hikeOneDayArray;
-                break;
             case 2:
                 return questArray;
-                break;
             case 3:
                 return excursionsArray;
-                break;
             case 4:
                 return climbingArray;
-                break;
             case 5:
                 return excursionsArray;
-                break;
             case 6:
                 return excursionsArray;
-                break;
+            default:
+                return hikeOneDayArray;
         }
     };
 
     return (
-        <section className={Styles.container} >
-            <h1 className={Styles.h1} id="products">Чем предлагаем заняться:</h1>
+        <section className={Styles.container}>
+            <h1 className={Styles.h1} id="products">
+                Варианты активного отдыха:
+            </h1>
             <div className={Styles.bloc_tabs}>
                 <TabBatButton
                     toggleState={toggleState}

@@ -1,5 +1,6 @@
+
 * {
-    font-family: "Andica", "Arial", sans-serif;
+    
     /* font-family: "DINOT-Light", "Arial", sans-serif; */
 }
 
@@ -25,26 +26,3 @@
         align-items: flex-start;
     }
 }
-
-@font-face {
-    font-family: "Andica";
-    font-style: normal;
-    font-weight: 400;
-    src: local("Andica"), url("../../fonts/Andica/Andika-Regular.woff2") format("woff2"),
-        url("../../fonts/Andica/Andika-Regular.woff") format("woff");
-}
-@font-face {
-    font-family: "DINOT-Light";
-    font-style: light;
-    font-weight: 200;
-    src: local("DINOT-Light"), url("../../fonts/FF_DIN/DINOT-Light.woff2") format("woff2"),
-        url("../../fonts/FF_DIN/DINOT-Light.woff") format("woff");
-}
-@font-face {
-    font-family: "DINOT_normal";
-    font-style: normal;
-    font-weight: 400;
-    src: local("DINOT_normal"), url("../../fonts/FF_DIN/DINOT.woff2") format("woff2"),
-        url("../../fonts/FF_DIN/DINOT.woff") format("woff");
-}
-

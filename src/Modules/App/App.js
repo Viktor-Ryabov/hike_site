@@ -12,12 +12,6 @@ import Video from "../../Pages/Video/Video.js";
 import WhatIsQuestHike from "../../Pages/WhatIsQuestHike/WhatIsQuestHike.js";
 import Excursions from "../../Pages/Excursions/Excursions";
 import LeftSideNavbar from "../LeftSideNavbar/LeftSideNavbar";
-import NavbarButton from "../NavbarBrand/Components/NavbarButton/NavbarButton";
-import MenuIcon from "../../UI/MenuIcon/MenuIcon";
-import icon1 from "../../Images/bonfire_fire_icon_250693.png";
-import icon2 from "../../Images/plant_eco_ecology_icon_250706.png";
-import icon3 from "../../Images/tent_camp_camping_icon_250714.png";
-import icon4 from "../../Images/tree_spring_forest_trees_icon_250691.png";
 import { Routes, Route } from "react-router-dom";
 
 export const App = () => {

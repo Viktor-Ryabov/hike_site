@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.431c18b1.css",
+    "main.js": "/static/js/main.b3b8f5aa.js",
+    "static/js/787.b07226c6.chunk.js": "/static/js/787.b07226c6.chunk.js",
+    "static/media/video_Arhiz_8_min.mp4": "/static/media/video_Arhiz_8_min.97ac4c454562a3acb86f.mp4",
+    "static/media/foroVika.jpg": "/static/media/foroVika.a7e9d4e2e06a82a95c16.jpg",
+    "static/media/Varan.jpg": "/static/media/Varan.e51f84edd2544cdc0477.jpg",
+    "static/media/Nata.jpg": "/static/media/Nata.574ab88decf75061271f.jpg",
+    "static/media/rya_sport_tourizm_logo.png": "/static/media/rya_sport_tourizm_logo.1e47c97e640bd8dfc9b3.png",
+    "static/media/mountains_logo.svg": "/static/media/mountains_logo.f486eb82ae074cacc7f6.svg",
+    "static/media/whatsapp-black.svg": "/static/media/whatsapp-black.0777ff5aa5ee15251679539eead05a6c.svg",
+    "static/media/vk_black_logo.svg": "/static/media/vk_black_logo.1d35eac8a74239ca722ed5f46f2af401.svg",
+    "static/media/phone-symbol.svg": "/static/media/phone-symbol.1edc775dae71f0303a26b6b37491a519.svg",
+    "index.html": "/index.html",
+    "static/media/telegram_icon.svg": "/static/media/telegram_icon.ac3c315964511863f57eff2a516e1d52.svg",
+    "main.431c18b1.css.map": "/static/css/main.431c18b1.css.map",
+    "main.b3b8f5aa.js.map": "/static/js/main.b3b8f5aa.js.map",
+    "787.b07226c6.chunk.js.map": "/static/js/787.b07226c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.431c18b1.css",
+    "static/js/main.b3b8f5aa.js"
+  ]
+}

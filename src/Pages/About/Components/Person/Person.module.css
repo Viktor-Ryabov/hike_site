@@ -13,6 +13,7 @@
         "title website"
         "image paragrah";
     align-items: stretch;
+    justify-content: center;
 }
 
 .person:last-of-type {
