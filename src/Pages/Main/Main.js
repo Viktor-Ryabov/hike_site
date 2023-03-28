@@ -1,6 +1,6 @@
 import React from "react";
 import Styles from "../Main/Main.module.css";
-import { UtpAndForm } from "./Components/UtpAndForm/UtpAndForm";
+// import { UtpAndForm } from "./Components/UtpAndForm/UtpAndForm";
 import TabBarProducts from "./Components/TabBarProducts/TabBarProducts";
 import MainVideo from "./Components/MainVideo/MainVideo";
 
