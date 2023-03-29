@@ -1,6 +1,6 @@
 import React from "react";
 import Styles from "./MainVideo.module.css";
-import video from "../../../../Video/video_Arhiz_8_min.mp4";
+import video from "../../../../video/video_Arhiz_8_min.mp4";
 
 const MainVideo = () => {
     return (

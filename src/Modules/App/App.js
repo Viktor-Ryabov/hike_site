@@ -8,7 +8,7 @@ import Equipment from "../../Pages/Equipment/Equipment.js";
 import EventsTypes from "../../Pages/EventsTypes/EventsTypes.js";
 import FoodInHike from "../../Pages/FoodInHike/FoodInHike.js";
 import Supack from "../../Pages/Supack/Supack.js";
-import Video from "../../Pages/Video/Video.js";
+import {VideoPage} from "../../Pages/VideoPage/VideoPage.js";
 import WhatIsQuestHike from "../../Pages/WhatIsQuestHike/WhatIsQuestHike.js";
 import Excursions from "../../Pages/Excursions/Excursions";
 import LeftSideNavbar from "../LeftSideNavbar/LeftSideNavbar";
@@ -30,7 +30,7 @@ export const App = () => {
                         <Route path="eventsTypes" element={<EventsTypes />} />
                         <Route path="foodInHike" element={<FoodInHike />} />
                         <Route path="supack" element={<Supack />} />
-                        <Route path="video" element={<Video />} />
+                        <Route path="video" element={<VideoPage />} />
                         <Route path="excursions" element={<Excursions />} />
                         <Route
                             path="whatIsQuestHike"
