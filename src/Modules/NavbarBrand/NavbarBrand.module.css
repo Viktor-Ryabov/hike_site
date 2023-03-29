@@ -18,6 +18,7 @@
     top: 0;
     align-items: center;
     justify-content: space-between;
+    border-bottom: solid 3px #2e8b57;
 }
 
 @media screen and (max-width: 800px) {
