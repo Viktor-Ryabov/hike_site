@@ -4,18 +4,17 @@ export const hikeOneDayArray = [
         category: "one day hike",
         hikeLength: 18,
         dificult: "Сложность средняя",
-        name: "Снежные горы",
+        name: "Гора Южная Демерджи и Долина привидений",
         cost: 4000,
-        image: "https://phonoteka.org/uploads/posts/2022-01/1642637697_56-phonoteka-org-p-fon-gori-65.jpg",
+        image: "../Images/oneDayHike/1.jpg",
     },
     {
-        id: 2,
-        name: "Долина с рекой",
-        hikeLength: 15,
-        dificult: "Сложность средняя",
-        cost: 4000,
         category: "one day hike",
-        image: "https://img1.goodfon.ru/original/800x480/0/cc/nebo-gory-sklon-les-reka.jpg",
+        hikeLength: 6,
+        dificult: "Сложность средняя",
+        name: "Гора Ильяс-Кая и храм Солнца",
+        cost: 4000,
+        image: "../Images/oneDayHike/2.jpg",
     },
     {
         id: 3,
@@ -107,7 +106,6 @@ export const hikeOneDayArray = [
         cost: 9000,
         image: "https://sportishka.com/uploads/posts/2022-11/1667475316_52-sportishka-com-p-podnozhya-gori-pinterest-59.jpg",
     },
-   
 ];
 
 export const questArray = [

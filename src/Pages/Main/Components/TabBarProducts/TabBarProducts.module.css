@@ -20,7 +20,7 @@
 .bloc_tabs {
     margin-top: 20px;
     display: flex;
-    width: 600px;
+    width: 90%;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: space-between;
