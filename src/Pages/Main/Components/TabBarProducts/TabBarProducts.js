@@ -57,18 +57,18 @@ const TabBarProducts = () => {
                     text={podsObject.one}
                     numberTab={1}
                 />
-                <TabBatButton
+                {/* <TabBatButton
                     toggleState={toggleState}
                     toggleTab={toggleTab}
                     text={podsObject.two}
                     numberTab={2}
-                />
-                <TabBatButton
+                /> */}
+                {/* <TabBatButton
                     toggleState={toggleState}
                     toggleTab={toggleTab}
                     text={podsObject.three}
                     numberTab={3}
-                />
+                /> */}
                 <TabBatButton
                     toggleState={toggleState}
                     toggleTab={toggleTab}
