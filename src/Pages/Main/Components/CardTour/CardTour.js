@@ -2,7 +2,7 @@ import Styles from "./CardTour.module.css";
 
 export const CardTour = (props) => {
     return (
-        <>
+        <li className={Styles.list}>
             <article className={Styles.card}>
                 <div className={Styles.card__rectangle}>
                     <img className={Styles.card__foto} src={props.item.image} alt="" />
@@ -16,7 +16,7 @@ export const CardTour = (props) => {
                     </div>
                 </div>
             </article>
-        </>
+        </li>
     );
 };
 
