@@ -5,12 +5,12 @@ const GoodsZone = (props) => {
     const hikesArray = props.hikesArray;
     // console.log(hikesArray)
     return (
-        <div className={Styles.goodsZone}>
+        <ul className={Styles.goodsZone}>
             {hikesArray.map((hike) => (
                 <CardTour item={hike} key={hike.id} id={hike.id} />
             ))}
             {/* <CardTour/> */}
-        </div>
+        </ul>
     );
 };
 

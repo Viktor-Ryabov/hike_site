@@ -10,6 +10,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    list-style-type: none;
 }
 
 @media screen and (max-width: 510px) {
