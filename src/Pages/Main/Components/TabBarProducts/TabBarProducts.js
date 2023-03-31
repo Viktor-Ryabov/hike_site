@@ -19,6 +19,7 @@ const podsObject = {
     six: "Детские походы",
 };
 
+
 const TabBarProducts = () => {
     const [toggleState, setToggleState] = useState(1);
 

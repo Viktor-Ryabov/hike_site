@@ -17,6 +17,8 @@ import foto16 from "../Images/oneDayHike/16.jpg";
 import foto17 from "../Images/oneDayHike/17.jpg";
 import foto18 from "../Images/oneDayHike/18.jpg";
 
+import { bankFoto } from "./bankFoto";
+
 export const hikeOneDayArray = [
     {
         id: 1,
@@ -305,7 +307,7 @@ export const climbingArray = [
         dificult: "трудно",
         name: "Лазание вертикльное",
         cost: 3000,
-        image: "https://dasart.ru/userdata/image/ce/34/ce3439fc22e67020c2ee4f1b7a9e3fd2.jpg",
+        image: bankFoto.climbing.foto1,
     },
     {
         id: 2,
