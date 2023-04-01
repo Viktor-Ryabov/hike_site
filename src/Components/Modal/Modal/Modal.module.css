@@ -34,6 +34,9 @@
     border-radius: 40px;
     /* overflow:hidden; */
     z-index: 120;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    grid-gap: 1rem;
   }
 
   .closeIcon{
@@ -41,14 +44,32 @@
     padding: 0;
     height: 24px;
     z-index: 100;
-    right: 13px;
-    top: 13px;
+    right: 60px;
+    top: 15px;
     position: absolute;
   }
   
   .closeIcon:hover{
     cursor: pointer;
     opacity: 0.8;
+  }
+
+  .image{
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 40px;
+  }
+
+  .discription{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: aliceblue;
+  }
+  .text {
+    padding: 5px;
+    color: aliceblue;
   }
 
   @media screen and (max-width: 800px) {
@@ -62,6 +83,6 @@
     }
     .closeIcon{
       right: 60px;
-      top: 20px;
+      top: 10px;
     }
   }

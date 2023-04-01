@@ -58,7 +58,7 @@ const TabBarProducts = () => {
 
     return (
         <section className={Styles.container}>
-            <Modal active={modalActive} setModalDisabled={setModalDisabled}/>
+            <Modal active={modalActive} setModalDisabled={setModalDisabled} cardDataFormodal={cardDataFormodal}/>
             <h1 className={Styles.h1} id="products">
                 Варианты активного отдыха:
             </h1>
