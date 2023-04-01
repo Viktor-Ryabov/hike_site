@@ -25,21 +25,23 @@ const Modal = ({ ...props }) => {
                         }}
                     />
                 </div>
-                <>
-                    <img
-                        src={props.cardDataFormodal.image}
-                        className={Styles.image}
-                        alt={props.cardDataFormodal.name}
-                    />
-                    <div className={Styles.discription}>
-                        <h3>{props.cardDataFormodal.name}</h3>
-                        <p>{props.cardDataFormodal.dificult}</p>
-                        <p>{props.cardDataFormodal.name}</p>
-                        <p>{props.cardDataFormodal.hikeLengthTitle} {props.cardDataFormodal.hikeLength}</p>
-                    </div>
-                    <p className={Styles.text}>{props.cardDataFormodal.discription1}</p>
-                    <p className={Styles.text}>{props.cardDataFormodal.discription2}</p>
-                </>
+                {/* <img
+                    src={props.cardDataFormodal.image}
+                    className={Styles.image}
+                    alt={props.cardDataFormodal.name}
+                /> */}
+                <div className={Styles.discription}>
+                    <h3 className={Styles.h3}>{props.cardDataFormodal.name}</h3>
+                    <p>{props.cardDataFormodal.dificult}</p>
+                    <p>{props.cardDataFormodal.name}</p>
+                    <p>
+                        {props.cardDataFormodal.hikeLengthTitle}{" "}
+                        {props.cardDataFormodal.hikeLength}
+                    </p>
+                    <p className={Styles.text}>
+                        {props.cardDataFormodal.discription1}
+                    </p>
+                </div>
             </div>
 
             <ModalOwerlay />
