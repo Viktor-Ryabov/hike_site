@@ -1,3 +1,4 @@
+import Modal from "../../../../Components/Modal/Modal/Modal.js"
 import Styles from "./TabBarProducts.module.css";
 import React from "react";
 import { useState } from "react";
@@ -21,9 +22,19 @@ const podsObject = {
 
 const TabBarProducts = () => {
     const [toggleState, setToggleState] = useState(1);
+    const [cardDataFormodal, setCardForModal] = useState({});
+    const [modalActive, setModalActive] = useState(false);
+
+    const setModalDisabled = () => {
+        setModalActive(false);
+    }
 
     const toggleTab = (index) => {
         setToggleState(index);
+    };
+    const setCard = (card) => {
+        setCardForModal(card);
+        console.log(card)
     };
 
     const productsSwitcher = () => {
@@ -47,6 +58,7 @@ const TabBarProducts = () => {
 
     return (
         <section className={Styles.container}>
+            <Modal active={modalActive} setModalDisabled={setModalDisabled} cardDataFormodal={cardDataFormodal}/>
             <h1 className={Styles.h1} id="products">
                 Варианты активного отдыха:
             </h1>
@@ -75,7 +87,7 @@ const TabBarProducts = () => {
                     text={podsObject.four}
                     numberTab={4}
                 />
-                <TabBatButton
+                {/* <TabBatButton
                     toggleState={toggleState}
                     toggleTab={toggleTab}
                     text={podsObject.five}
@@ -86,7 +98,7 @@ const TabBarProducts = () => {
                     toggleTab={toggleTab}
                     text={podsObject.six}
                     numberTab={6}
-                />
+                /> */}
             </div>
 
             {/* <div className={Styles.content_tabs}> */}
@@ -94,6 +106,8 @@ const TabBarProducts = () => {
                 toggleState={toggleState}
                 numerTab={toggleState}
                 data={productsSwitcher()}
+                setCardForModal={setCard}
+                setModalActive={setModalActive}
             />
         </section>
     );
