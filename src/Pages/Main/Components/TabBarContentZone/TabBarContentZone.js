@@ -14,7 +14,11 @@ const TabBarContentZone = (props) => {
             >
                 {/* <h2>{props.title}</h2> */}
                 <hr />
-                <GoodsZone hikesArray={props.data}/>
+                <GoodsZone
+                    hikesArray={props.data}
+                    setCardForModal={props.setCardForModal}
+                    setModalActive={props.setModalActive}
+                />
             </div>
         </>
     );

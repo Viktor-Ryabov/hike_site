@@ -1,9 +1,9 @@
 import Styles from "./App.module.css";
 import { BrowserRouter as Router } from "react-router-dom";
-import NavbarBrand from "../NavbarBrand/NavbarBrand";
+import NavbarBrand from "../../Modules/NavbarBrand/NavbarBrand";
 import Main from "../../Pages/Main/Main";
 import About from "../../Pages/About/About.js";
-import LeftSideSpacer from "../LeftSideSpacer/LeftSideSpacer";
+import LeftSideSpacer from "../../Modules/LeftSideSpacer/LeftSideSpacer";
 // import Equipment from "../../Pages/Equipment/Equipment.js";
 // import EventsTypes from "../../Pages/EventsTypes/EventsTypes.js";
 // import FoodInHike from "../../Pages/FoodInHike/FoodInHike.js";
@@ -11,7 +11,7 @@ import Supack from "../../Pages/Supack/Supack.js";
 import {VideoPage} from "../../Pages/VideoPage/VideoPage.js";
 import WhatIsQuestHike from "../../Pages/WhatIsQuestHike/WhatIsQuestHike.js";
 // import Excursions from "../../Pages/Excursions/Excursions";
-import LeftSideNavbar from "../LeftSideNavbar/LeftSideNavbar";
+import LeftSideNavbar from "../../Modules/LeftSideNavbar/LeftSideNavbar";
 import { Routes, Route } from "react-router-dom";
 
 export const App = () => {
