@@ -1,4 +1,4 @@
-.contactsTelegramm{
+.contaktLink {
     margin: 0;
     padding: 0;
     display: flex;
@@ -8,11 +8,11 @@
     text-decoration: none;
     color: black;
 }
-.contactsTelegramm:hover{
+.contaktLink:hover {
     cursor: pointer;
     opacity: 80%;
     background: none;
-    color: #2E8B57;
+    color: #2e8b57;
     animation: ani 0.5s forwards;
 }
 @keyframes ani {
@@ -20,29 +20,29 @@
         color: black;
     }
     100% {
-        color: #2E8B57;
+        color: #2e8b57;
     }
 }
-.telegrammIcon{
+.contaktLinkIcon {
     margin: 0 5px 0 0;
     padding: 0;
     width: 15px;
 }
 
 @media screen and (max-width: 800px) {
-    .telegrammIcon {
+    .contaktLinkIcon {
         margin: 0 3px 0 0;
         width: 10px;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .contactsTelegramm {
+    .contaktLink {
         height: 20px;
         display: flex;
         flex-direction: row;
         align-items: center;
-        /* outline: solid rgb(175, 170, 170) 1px;  */
+        background-color: rgb(226, 226, 226);
         padding: 3px;
         border-radius: 5px;
         margin: 5px;
