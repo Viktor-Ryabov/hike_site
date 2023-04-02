@@ -5,7 +5,7 @@ import Icon from "../../../Images/vk_black_logo.svg";
 const ContactsVK = () => {
     return (
         <>
-            <a className={Styles.contactsVK} href="https://vk.com/outdoor_team">
+            <a target="_blank" className={Styles.contactsVK} href="https://vk.com/outdoor_team">
                 <img
                     className={Styles.vkIcon}
                     src={Icon}

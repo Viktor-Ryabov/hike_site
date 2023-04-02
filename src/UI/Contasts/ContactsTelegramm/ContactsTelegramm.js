@@ -5,7 +5,7 @@ import Icon from "../../../Images/telegram_icon.svg";
 const ContactsTelegramm = () => {
     return (
         <>
-            <a className={Styles.contactsTelegramm} href="https://t.me/rya_lt">
+            <a target="_blank" className={Styles.contactsTelegramm} href="https://t.me/rya_lt">
                 <img
                     className={Styles.telegrammIcon}
                     src={Icon}

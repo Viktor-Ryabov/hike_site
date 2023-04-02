@@ -5,7 +5,7 @@ import Icon from "../../../Images/whatsapp-black.svg";
 const ContactsWhatsApp = () => {
     return (
         <>
-            <a className={Styles.contactsWhatsApp} href="https://wa.me/79789012010">
+            <a target="_blank" className={Styles.contactsWhatsApp} href="https://wa.me/79789012010">
                 <img
                     className={Styles.whatsAppIcon}
                     src={Icon}

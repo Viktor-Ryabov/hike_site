@@ -1,6 +1,7 @@
 .card {
     margin: 0;
     padding: 10px;
+    width: 280px;
     /* position: relative; */
     /* background-color: rgb(130, 150, 128); */
     
@@ -21,7 +22,10 @@
 }
 
 .list{
+    margin: 0;
+    padding: 0;
     list-style-type: none;
+    /* width: 100%; */
 }
 
 /* .card__like_zone{
@@ -86,11 +90,11 @@
     align-self: center;
 }
 
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 00px) {
     .card {
         width: 95%;
     }
         .card__foto{
-            width: 100%;
+            /* width: 100%; */
     }
 }
