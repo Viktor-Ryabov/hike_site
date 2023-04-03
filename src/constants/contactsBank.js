@@ -3,7 +3,7 @@ import telegIcon from "../Images/telegram_icon.svg";
 import whatsappIcon from "../Images/whatsapp-black.svg";
 import phoneIcon from "../Images/phone-symbol.svg";
 
-export const contactsBank = [
+export const ContactsBank = [
     {
         href: "tel:+79789012010",
         icon: phoneIcon,

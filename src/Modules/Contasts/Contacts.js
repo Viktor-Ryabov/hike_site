@@ -1,12 +1,12 @@
 import React from "react";
 import Styles from "./Contacts.module.css";
 import { ContaktLink } from "../../UI/ContaktLink/ContaktLink.js";
-import { contactsBank } from "../../constants/contactsBank.js";
+import { ContactsBank } from "../../constants/ContactsBank.js";
 
 const Contacts = () => {
     return (
         <div className={Styles.contacts}>
-            {contactsBank.map((contactItem) => (
+            {ContactsBank.map((contactItem) => (
                 <ContaktLink
                     href={contactItem.href}
                     src={contactItem.icon}
