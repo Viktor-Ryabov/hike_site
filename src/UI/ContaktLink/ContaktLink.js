@@ -6,6 +6,7 @@ export const ContaktLink = (props) => {
             <>
                 <a
                     target="_blank"
+                    rel="noreferrer"
                     className={Styles.contaktLink}
                     href={props.href}
                 >

@@ -1,6 +1,8 @@
 import videoArhiz from "../../../video/video_Arhiz_8_min.mp4";
 import videoTempleOfSsun from "../../../video/temple_of_sun.mp4";
 import bigCanionCrimea from "../../../video/big_canion_Crimea.mp4";
+import canionBaga from "../../../video/canionBaga_ 01.04.2023.mp4";
+import Obstacle_Course from "../../../video/Obstacle_Course.mp4";
 
 export const videoBank = [
     {
@@ -20,5 +22,17 @@ export const videoBank = [
         title: "Храм солнца. Крым",
         date: "март 2023",
         src: videoTempleOfSsun,
+    },
+    {
+        id: 4,
+        title: "Каньон реки Бага",
+        date: "апрель 2023",
+        src: canionBaga,
+    },
+    {
+        id: 5,
+        title: "Полоса препятствий",
+        date: "апрель 2020",
+        src: Obstacle_Course,
     },
 ]

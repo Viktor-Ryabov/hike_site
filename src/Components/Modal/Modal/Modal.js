@@ -1,8 +1,10 @@
 import { ModalOwerlay } from "../ModalOwerlay/ModalOwerlay.js";
-import { useCallback, useEffect } from "react";
+// import { useCallback, useEffect } from "react";
 import ReactDOM from "react-dom";
 import Styles from "./Modal.module.css";
 import CloseIcon from "../../../UI/CloseIcon/CloseIcon.js";
+import CaptureForm from "../../../UI/CaptureForm/CaptureForm.js";
+import Contacts from "../../../Modules/Contasts/Contacts.js";
 
 const Modal = ({ ...props }) => {
     const escFunction = () => {
@@ -41,7 +43,15 @@ const Modal = ({ ...props }) => {
                     <p className={Styles.text}>
                         {props.cardDataFormodal.discription1}
                     </p>
+                    {/* <CaptureForm /> */}
+                    <div className={Styles.connectionSection}>
+                        <div className={Styles.brand_title}>
+                            Для записи свяжитесь пожалуйста с нами
+                        </div>
+                        <Contacts />
+                    </div>
                 </div>
+                {/* <CaptureForm /> */}
             </div>
 
             <ModalOwerlay />
