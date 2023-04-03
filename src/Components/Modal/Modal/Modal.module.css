@@ -22,6 +22,7 @@
 
   .modalContainer{
     margin: auto;
+    padding: 20px;
     width: 80%;
     min-height: 80%;
     position: absolute;
@@ -34,9 +35,9 @@
     border-radius: 40px;
     /* overflow:hidden; */
     z-index: 120;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
-    grid-gap: 1rem;
+    display: flex;
+    flex-direction: row;
+
   }
 
   .closeIcon{
@@ -55,7 +56,7 @@
   }
 
   .image{
-    width: 100%;
+    width: 50%;
     height: auto;
     border-top-left-radius: 40px;
   }
@@ -68,8 +69,12 @@
     color: aliceblue;
   }
   .text {
-    padding: 5px;
+    margin-top: 10px;
+    font-size: 12px;
+    /* padding: 5px; */
     color: aliceblue;
+    width: 100%;
+    text-align:justify;
   }
 
   @media screen and (max-width: 800px) {
@@ -84,5 +89,8 @@
     .closeIcon{
       right: 60px;
       top: 10px;
+    }
+    .h3{
+      width: 60%;
     }
   }

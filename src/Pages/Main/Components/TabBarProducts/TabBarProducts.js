@@ -2,14 +2,14 @@ import Modal from "../../../../Components/Modal/Modal/Modal.js"
 import Styles from "./TabBarProducts.module.css";
 import React from "react";
 import { useState } from "react";
-import TabBatButton from "../TabBatButton/TabBatButton";
-import TabBarContentZone from "../TabBarContentZone/TabBarContentZone";
+import TabBatButton from "../../Modules/TabBatButton/TabBatButton.js";
+import TabBarContentZone from "../TabBarContentZone/TabBarContentZone.js";
 import {
     hikeOneDayArray,
     excursionsArray,
     climbingArray,
     questArray,
-} from "../../../../constants/constantsBakItems.js";
+} from "../../../../constants/ConstantsBakItems.js";
 
 const podsObject = {
     one: "Поход выходного дня",

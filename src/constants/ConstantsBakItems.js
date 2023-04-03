@@ -30,8 +30,8 @@ export const hikeOneDayArray = [
         cost: 4000,
         image: foto1,
         costTitle: "с группы",
-        discription1: "Такие природные сокровища, как Хапхальское ущелье, Крым превращают в настоящую туристическую «Мекку», привлекая множество желающих собственными глазами узреть эти просто немыслимые красоты. Полуостров, еще с советских времен заслуживший славу самого прекрасного уголка Восточной Европы, удивляет и поражает и поныне немеркнущей ни летом, ни зимой красотой природы, таящей в себе некое подобие детской мечты. Действительно, ничто так не привлекает, как живописные, чарующие пейзажи чужого края, с этим не сравнятся чудеса, созданные людьми, на это в первую очередь обращается внимание.",
-        discription2: "Джур-Джур – самый красивый водопад Хапхальского ущелья и всего Крымского полуострова, в эстетической красоте с ним вряд ли что сравнится. Он наиболее полноводный в Крыму, в отличие от большинства других, он не пересыхает даже жарким, засушливым летом. Средний расход воды в нем составляет около 270 л/с, в периоды весеннего половодья, этот показатель достигает отметки в 500 л/с. Размеры его водного потока тоже впечатляют – он имеет 5 м в ширину и высоту падения 15 м.",
+        discription1:
+            "Джур-Джур — самый полноводный водопад Крыма, расположен на территории Алуштинского региона в окрестностях села Генеральского, в ущелье Хапхал, образовавшемся в результате действия вод реки Улу-Узень Восточный на высоте 468 м над уровнем моря. Река Улу-Узень спускается со стометровой высоты по трёхкаскадному порогу. С известнякового уступа, высота которого 15 метров, широким пятиметровым потоком вода обрушивается в глубокий котлован и бурно стремится вниз по руслу реки. Джур-Джур — самый мощный водопад в Крыму: его средний многолетний расход воды составляет 270 литров в секунду. Он не иссякает даже в самое сухое время года.",
     },
     {
         id: 2,
@@ -43,6 +43,8 @@ export const hikeOneDayArray = [
         cost: 4000,
         image: foto2,
         costTitle: "с группы",
+        discription1:
+            "Это место хоть и называют «храмом», но там нет никаких построек или даже древних развалин. Храм Солнца – это пространство с семью огромными валунами, которые расходятся как лучи от центрального камня-алтаря. Относительного алтаря все валуны наклонены под углом в 60°, по отношению к горному хребту - под 45°. По аналогии там можно увидеть и лепестки цветов, и пасть дракона, и раскрытую ладонь великана с пригоршней зелени. Происхождение неизвестно, есть сторонники природной версии, а есть - мистической. Храм Солнца называют центром космической энергетики, порталом в другие миры, местом силы, которое лечит и очищает. И исполняет желания, но при условии, что человек готов к этому, а также чист душой и помыслами, тогда задуманное пойдет ему и остальным во благо. Те, кто там уже побывал, отмечают приятную, благостную энергетику места, говорят, что ощущают себя моложе, сильнее и энергичнее.",
     },
     {
         id: 3,
@@ -54,6 +56,7 @@ export const hikeOneDayArray = [
         cost: 4000,
         image: foto3,
         costTitle: "с группы",
+        discription1: "",
     },
     {
         id: 4,
@@ -65,6 +68,7 @@ export const hikeOneDayArray = [
         cost: 4000,
         image: foto4,
         costTitle: "с группы",
+        discription1: "",
     },
     {
         id: 5,
@@ -76,6 +80,7 @@ export const hikeOneDayArray = [
         cost: 4000,
         image: foto5,
         costTitle: "с группы",
+        discription1: "",
     },
     {
         id: 6,
@@ -87,6 +92,7 @@ export const hikeOneDayArray = [
         cost: 4000,
         image: foto6,
         costTitle: "с группы",
+        discription1: "",
     },
     {
         id: 7,
@@ -98,6 +104,7 @@ export const hikeOneDayArray = [
         cost: 4000,
         image: foto7,
         costTitle: "с группы",
+        discription1: "",
     },
     {
         id: 8,
@@ -109,6 +116,7 @@ export const hikeOneDayArray = [
         cost: 4000,
         image: foto8,
         costTitle: "с группы",
+        discription1: "",
     },
     {
         id: 9,
@@ -120,6 +128,7 @@ export const hikeOneDayArray = [
         cost: 4000,
         image: foto9,
         costTitle: "с группы",
+        discription1: "",
     },
     {
         id: 10,
@@ -131,6 +140,7 @@ export const hikeOneDayArray = [
         cost: 4000,
         image: foto10,
         costTitle: "с группы",
+        discription1: "",
     },
     {
         id: 11,
@@ -142,6 +152,7 @@ export const hikeOneDayArray = [
         cost: 4000,
         image: foto11,
         costTitle: "с группы",
+        discription1: "",
     },
     {
         id: 12,
@@ -153,6 +164,7 @@ export const hikeOneDayArray = [
         cost: 4000,
         image: foto12,
         costTitle: "с группы",
+        discription1: "",
     },
     {
         id: 13,
@@ -164,6 +176,7 @@ export const hikeOneDayArray = [
         cost: 4000,
         image: foto13,
         costTitle: "с группы",
+        discription1: "",
     },
     {
         id: 14,
@@ -175,6 +188,7 @@ export const hikeOneDayArray = [
         cost: 4000,
         image: foto14,
         costTitle: "с группы",
+        discription1: "",
     },
     {
         id: 15,
@@ -186,6 +200,7 @@ export const hikeOneDayArray = [
         cost: 4000,
         image: foto15,
         costTitle: "с группы",
+        discription1: "",
     },
     {
         id: 16,
@@ -197,6 +212,7 @@ export const hikeOneDayArray = [
         cost: 4000,
         image: foto16,
         costTitle: "с группы",
+        discription1: "",
     },
 
     {
@@ -209,6 +225,7 @@ export const hikeOneDayArray = [
         cost: 4000,
         image: foto17,
         costTitle: "с группы",
+        discription1: "",
     },
     {
         id: 18,
@@ -220,6 +237,7 @@ export const hikeOneDayArray = [
         cost: 4000,
         image: foto18,
         costTitle: "с группы",
+        discription1: "",
     },
 ];
 
@@ -348,7 +366,7 @@ export const climbingArray = [
         cost: 1500,
         costTitle: "с человека",
         image: bankFoto.climbing.foto1,
-        
+        discription1: "",
     },
     {
         id: 2,
@@ -360,6 +378,7 @@ export const climbingArray = [
         cost: 1500,
         costTitle: "с человека",
         image: bankFoto.climbing.foto2,
+        discription1: "",
     },
     {
         id: 3,
@@ -371,6 +390,7 @@ export const climbingArray = [
         cost: 1500,
         costTitle: "с человека",
         image: bankFoto.climbing.foto3,
+        discription1: "",
     },
     {
         id: 4,
@@ -382,6 +402,7 @@ export const climbingArray = [
         cost: 1500,
         costTitle: "с человека",
         image: bankFoto.climbing.foto4,
+        discription1: "",
     },
     {
         id: 5,
@@ -393,6 +414,7 @@ export const climbingArray = [
         cost: 1500,
         costTitle: "с человека",
         image: bankFoto.climbing.foto5,
+        discription1: "",
     },
     {
         id: 6,
@@ -404,6 +426,7 @@ export const climbingArray = [
         cost: 1500,
         costTitle: "с человека",
         image: bankFoto.climbing.foto6,
+        discription1: "",
     },
     {
         id: 7,
@@ -415,6 +438,7 @@ export const climbingArray = [
         cost: 1500,
         costTitle: "с человека",
         image: bankFoto.climbing.foto7,
+        discription1: "",
     },
     {
         id: 8,
@@ -426,5 +450,6 @@ export const climbingArray = [
         cost: 1500,
         costTitle: "с человека",
         image: bankFoto.climbing.foto8,
+        discription1: "",
     },
 ];
