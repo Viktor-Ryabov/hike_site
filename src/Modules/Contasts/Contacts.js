@@ -12,6 +12,7 @@ const Contacts = () => {
                     src={contactItem.icon}
                     alt={contactItem.linkName}
                     text={contactItem.text}
+                    key={contactItem.id}
                 />
             ))}
         </div>
