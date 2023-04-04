@@ -90,6 +90,9 @@
     margin-bottom: 10px;
     font-weight: 600;
 }
+.brand_title:nth-child(1) {
+    margin-bottom: 0;
+}
 
 .dataText{
     /* margin-top: 5px; */

@@ -54,7 +54,10 @@ const Modal = ({ ...props }) => {
                 {/* <CaptureForm /> */}
                 <div className={Styles.connectionSection}>
                         <div className={Styles.brand_title}>
-                            Для записи свяжитесь пожалуйста с нами
+                            Записывайтесь прямо сейчас!
+                        </div>
+                        <div className={Styles.brand_title}>
+                            Горы ждут! 🌄
                         </div>
                         <Contacts />
                     </div>
