@@ -36,11 +36,11 @@ const Modal = ({ ...props }) => {
                         <h3 className={Styles.h3}>
                             {props.cardDataFormodal.name}
                         </h3>
-                        <p>
+                        <p className={Styles.dataText}>
                             {props.cardDataFormodal.hikeLengthTitle}{" "}
                             {props.cardDataFormodal.hikeLength}
                         </p>
-                        <p>
+                        <p className={Styles.dataText}>
                             {props.cardDataFormodal.droptitle}{" "}
                             {props.cardDataFormodal.drop}
                         </p>

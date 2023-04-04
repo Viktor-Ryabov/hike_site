@@ -90,15 +90,25 @@
     margin-bottom: 10px;
     font-weight: 600;
 }
-.text {
-    margin-top: 10px;
+
+.dataText{
+    /* margin-top: 5px; */
     font-size: 12px;
     /* padding: 5px; */
     color: aliceblue;
     width: 100%;
     text-align: justify;
-    overflow: hidden;
-    overflow-y: scroll;
+}
+
+.text {
+    margin: 10px 0;
+    font-size: 12px;
+    /* padding: 5px; */
+    color: aliceblue;
+    width: 100%;
+    text-align: justify;
+    max-height: 300px;
+    overflow-y: auto;
 }
 
 @media screen and (max-width: 800px) {
@@ -116,5 +126,6 @@
     }
     .h3 {
         width: 60%;
+        font-size: 15px;
     }
 }
