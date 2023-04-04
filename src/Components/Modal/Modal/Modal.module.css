@@ -97,6 +97,8 @@
     color: aliceblue;
     width: 100%;
     text-align: justify;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 @media screen and (max-width: 800px) {
