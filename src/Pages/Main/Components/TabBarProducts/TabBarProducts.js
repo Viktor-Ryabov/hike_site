@@ -9,7 +9,7 @@ import {
     excursionsArray,
     climbingArray,
     questArray,
-} from "../../../../constants/ConstantsBakItems.js";
+} from "../../../../constants/constantsBakItems.js";
 
 const podsObject = {
     one: "Поход выходного дня",

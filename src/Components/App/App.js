@@ -10,6 +10,7 @@ import LeftSideSpacer from "../../Modules/LeftSideSpacer/LeftSideSpacer";
 import Supack from "../../Pages/Supack/Supack.js";
 import {VideoPage} from "../../Pages/VideoPage/VideoPage.js";
 import WhatIsQuestHike from "../../Pages/WhatIsQuestHike/WhatIsQuestHike.js";
+import TabBarProducts from "../../Pages/Main/Components/TabBarProducts/TabBarProducts";
 // import Excursions from "../../Pages/Excursions/Excursions";
 import LeftSideNavbar from "../../Modules/LeftSideNavbar/LeftSideNavbar";
 import { Routes, Route } from "react-router-dom";
@@ -36,6 +37,7 @@ export const App = () => {
                             path="whatIsQuestHike"
                             element={<WhatIsQuestHike />}
                         />
+                        <Route path="variants" element={< TabBarProducts />} />
                     </Routes>
                 </section>
             </div>

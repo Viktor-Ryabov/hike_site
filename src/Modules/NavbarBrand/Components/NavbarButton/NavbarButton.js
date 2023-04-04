@@ -1,12 +1,16 @@
-import React from 'react'
+import React from "react";
 import Styles from "./NavbarButton.module.css";
-import { Link } from 'react-router-dom';
-
+import { Link } from "react-router-dom";
+import { Scrollchor } from "react-scrollchor";
 
 const NavbarButton = (props) => {
-  return (
-    <Link to={props.to} className={Styles.button}>{props.text}</Link>
-  )
-}
+    return (
+        <Scrollchor to={props.scrollTo} className={Styles.scrollchor}>
+            <Link to={props.to} className={Styles.button}>
+                {props.text}
+            </Link>
+        </Scrollchor>
+    );
+};
 
-export default NavbarButton
+export default NavbarButton;
