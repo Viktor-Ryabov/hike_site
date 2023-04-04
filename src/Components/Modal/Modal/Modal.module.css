@@ -66,14 +66,12 @@
 }
 
 .discription {
-  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
     color: aliceblue;
     width: 100%;
-    justify-content: space-between;
-    max-height: 630px;
-    padding: 10px 0;
-    overflow: hidden;
-    overflow-Y: auto;
 }
 .connectionSection {
     margin: 0 0 0 0;
@@ -82,27 +80,38 @@
     display: flex;
     flex-direction: column;
     color: black;
-    background-color:rgba(255, 255, 255, 0.7);
+    background-color: aliceblue;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     justify-self: flex-end;
 }
 
-.brand_title{
-  margin-bottom: 10px;
-  font-weight: 600;
+.brand_title {
+    margin-bottom: 10px;
+    font-weight: 600;
 }
-.text {
-    margin-top: 10px;
+.brand_title:nth-child(1) {
+    margin-bottom: 0;
+}
+
+.dataText{
+    /* margin-top: 5px; */
     font-size: 12px;
     /* padding: 5px; */
     color: aliceblue;
     width: 100%;
     text-align: justify;
-    max-height: 530px;
-    overflow: hidden;
-    overflow-Y: auto;
-    padding: 10px 0;
+}
+
+.text {
+    margin: 10px 0;
+    font-size: 12px;
+    /* padding: 5px; */
+    color: aliceblue;
+    width: 100%;
+    text-align: justify;
+    max-height: 300px;
+    overflow-y: auto;
 }
 
 @media screen and (max-width: 800px) {
@@ -120,5 +129,6 @@
     }
     .h3 {
         width: 60%;
+        font-size: 15px;
     }
 }

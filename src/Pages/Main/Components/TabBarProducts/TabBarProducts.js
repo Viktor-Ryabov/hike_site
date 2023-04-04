@@ -9,7 +9,7 @@ import {
     excursionsArray,
     climbingArray,
     questArray,
-} from "../../../../constants/constantsBakItems.js";
+} from "../../../../constants/ConstantsBakItems.js";
 
 const podsObject = {
     one: "Поход выходного дня",
@@ -34,7 +34,6 @@ const TabBarProducts = () => {
     };
     const setCard = (card) => {
         setCardForModal(card);
-        console.log(card)
     };
 
     const productsSwitcher = () => {
