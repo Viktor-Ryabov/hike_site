@@ -34,7 +34,6 @@ const TabBarProducts = () => {
     };
     const setCard = (card) => {
         setCardForModal(card);
-        console.log(card)
     };
 
     const productsSwitcher = () => {

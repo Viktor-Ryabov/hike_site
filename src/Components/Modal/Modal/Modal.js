@@ -1,15 +1,24 @@
 import { ModalOwerlay } from "../ModalOwerlay/ModalOwerlay.js";
-// import { useCallback, useEffect } from "react";
+import { useCallback, useEffect } from "react";
 import ReactDOM from "react-dom";
 import Styles from "./Modal.module.css";
 import CloseIcon from "../../../UI/CloseIcon/CloseIcon.js";
 import Contacts from "../../../Modules/Contasts/Contacts.js";
 
 const Modal = ({ ...props }) => {
-    const escFunction = () => {
-        props.setModalDisabled();
-        console.log("escFunction");
-    };
+
+    const escFunction = useCallback((event) => {
+        if (event.key === "Escape") {
+            props.setModalDisabled();
+        }
+    }, []);
+
+    useEffect(() => {
+        document.addEventListener("keydown", escFunction, false);
+        return () => {
+            document.removeEventListener("keydown", escFunction, false);
+        };
+    }, []);
 
     return ReactDOM.createPortal(
         <section
@@ -20,11 +29,7 @@ const Modal = ({ ...props }) => {
         >
             <div className={Styles.modalContainer}>
                 <div className={Styles.closeIcon}>
-                    <CloseIcon
-                        onClick={() => {
-                            props.setModalDisabled();
-                        }}
-                    />
+                    <CloseIcon {...props}/>
                 </div>
                 {/* <img
                     src={props.cardDataFormodal.image}
