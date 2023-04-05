@@ -3,7 +3,11 @@ import Styles from "./Supack.module.css";
 const Supack = () => {
   return (
     <section className={Styles.page}>
-        SimpleSlider
+      MainBlok        
+      DiscriptionBlock
+        Image
+        article
+      OrderBlock
     </section>
     )
 }

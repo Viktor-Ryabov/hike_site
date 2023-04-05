@@ -1,7 +1,7 @@
 import React from "react";
 import Styles from "./Contacts.module.css";
 import { ContaktLink } from "../../UI/ContaktLink/ContaktLink.js";
-import { ContactsBank } from "../../constants/contactsBank.js";
+import { ContactsBank } from "../../constants/ContactsBank.js";
 
 const Contacts = () => {
     return (
