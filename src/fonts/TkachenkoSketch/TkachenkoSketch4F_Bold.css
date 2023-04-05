@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "TkachenkoSketch";
+    font-style: normal;
+    font-weight: 400;
+    src: local("TkachenkoSketch"), url("../../fonts/TkachenkoSketch/TkachenkoSketch4F-Bold.woff2") format("woff2"),
+        url("../../fonts/TkachenkoSketch/TkachenkoSketch4F-Bold.woff2") format("woff");
+}

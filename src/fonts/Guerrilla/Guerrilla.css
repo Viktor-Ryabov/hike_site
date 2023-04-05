@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "Guerrilla";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Guerrilla"), url("../../fonts/Guerrilla/GUERRILLA-Normal.woff2") format("woff2"),
+        url("../../fonts/Guerrilla/GUERRILLA-Normal.woff") format("woff");
+}

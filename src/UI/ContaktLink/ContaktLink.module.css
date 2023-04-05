@@ -1,3 +1,5 @@
+@import url(../../fonts/Guerrilla/Guerrilla.css);
+
 .contaktLink {
     margin: 0;
     padding: 0;
@@ -7,6 +9,7 @@
     justify-content: center;
     text-decoration: none;
     color: black;
+    font-family: Guerrilla;
 }
 .contaktLink:hover {
     cursor: pointer;
