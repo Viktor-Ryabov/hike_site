@@ -18,7 +18,7 @@ const Person = ({ props }) => {
         >
             <ArticleAbout text={props.text} />
             <FotoAbout image={props.image} />
-            <Title name={props.name} />
+            <Title orientation={props.orientation} name={props.name} />
         </div>
     );
 };

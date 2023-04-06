@@ -3,17 +3,25 @@
     padding: 0;
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 460px;
+    /* max-width: 460px; */
+    width: 100%;
+    height: auto;
+    max-height: 100%;
     grid-area: image;
     border-radius: 50px;
   }
+  .imageBlock{
+    max-height: 100%;
+    height: fit-content;
+    max-width: 100%;
+  }
   
-  @media screen and (max-width: 1279px) and (min-width: 1024px),
+  /* @media screen and (max-width: 1279px) and (min-width: 1024px),
     screen and (max-device-width: 1279px) and (min-device-width: 1024px) {
     .image {
       max-width: 440px;
     }
-  }
+  } */
   
   @media screen and (max-width: 1023px) and (min-width: 768px),
     screen and (max-device-width: 1023px) and (min-device-width: 768px) {

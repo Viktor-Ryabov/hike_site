@@ -1,13 +1,16 @@
 
 .article {
+  width: 100%;
     margin: 0 auto 26px 0;
     font-style: normal;
     font-weight: normal;
-    font-size: 40px;
+    font-size: 25px;
     line-height: 125%;
     color: black;
     grid-area: paragrah;
     text-align: justify;
+    height: fit-content;
+    max-height: 100%;
   }
   
   .article:last-of-type {

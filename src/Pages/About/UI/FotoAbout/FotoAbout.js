@@ -2,11 +2,9 @@ import Styles from "./FotoAbout.module.css";
 
 const FotoAbout = (props) => {
     return (
-            <img
-                className={Styles.image}
-                src={props.image}
-                alt="портрет"
-            />
+        <div className={Styles.imageBlock}>
+            <img className={Styles.image} src={props.image} alt="портрет" />
+        </div>
     );
 };
 
