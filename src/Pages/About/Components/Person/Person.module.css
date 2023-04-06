@@ -9,11 +9,23 @@
     grid-gap: 48px 40px;
     list-style: none;
     justify-items: center;
+    align-items: stretch;
+    justify-content: center;
     grid-template-areas:
         "title website"
         "image paragrah";
-    align-items: stretch;
-    justify-content: center;
+}
+
+.fotoLeft {
+    grid-template-areas:
+        "title website"
+        "image paragrah";
+}
+
+.fotoRight {
+    grid-template-areas:
+        "website title"
+        "paragrah image";
 }
 
 .person:last-of-type {
