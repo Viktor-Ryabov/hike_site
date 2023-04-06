@@ -8,7 +8,8 @@ const Person = ({ props }) => {
     return (
         <div
             className={
-                Styles.person + " " +
+                Styles.person +
+                " " +
                 `${
                     props.orientation === "Left"
                         ? Styles.fotoLeft
@@ -16,7 +17,11 @@ const Person = ({ props }) => {
                 }`
             }
         >
-            <ArticleAbout text={props.text} />
+            <div className={Styles.textBlock}>
+                <ArticleAbout text={props.textHello} />
+                <ArticleAbout text={props.textAbout} />
+                <ArticleAbout text={props.textAbout2} />
+            </div>
             <FotoAbout image={props.image} />
             <Title orientation={props.orientation} name={props.name} />
         </div>
