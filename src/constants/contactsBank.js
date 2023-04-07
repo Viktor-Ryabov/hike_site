@@ -26,7 +26,7 @@ export const ContactsBank = [
         id: 3,
     },
     {
-        href: "https://vk.com/outdoor_team",
+        href: "https://vk.com/rya_travel",
         icon: vkIcon,
         linkName: "телефон",
         text: "ГРУППА В VK",
