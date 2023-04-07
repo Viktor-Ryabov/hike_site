@@ -21,6 +21,7 @@ const Person = ({ props }) => {
                 <ArticleAbout text={props.textHello} />
                 <ArticleAbout text={props.textAbout} />
                 <ArticleAbout text={props.textAbout2} />
+                <ArticleAbout text={props.textAbout3} />
             </div>
             <FotoAbout image={props.image} />
             <Title orientation={props.orientation} name={props.name} />
