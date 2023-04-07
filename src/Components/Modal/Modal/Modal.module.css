@@ -93,10 +93,12 @@
 .brand_title:nth-child(1) {
     margin-bottom: 0;
 }
-
+.h3{
+    font-size: 25px;
+}
 .dataText{
     /* margin-top: 5px; */
-    font-size: 12px;
+    font-size: 18px;
     /* padding: 5px; */
     color: aliceblue;
     width: 100%;
@@ -105,7 +107,7 @@
 
 .text {
     margin: 10px 0;
-    font-size: 12px;
+    font-size: 16px;
     /* padding: 5px; */
     color: aliceblue;
     width: 100%;
@@ -130,5 +132,11 @@
     .h3 {
         width: 60%;
         font-size: 15px;
+    }
+    .dataText{
+        font-size: 12px;
+    }
+    .text{
+        font-size: 10px;
     }
 }
