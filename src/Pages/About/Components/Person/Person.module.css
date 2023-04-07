@@ -1,36 +1,43 @@
 .person {
     width: 100%;
     margin: 0;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
     padding: 0 auto 0 auto;
     display: grid;
-    grid-template-rows: min-content 460px;
     grid-template-columns: 40% 40%;
-    grid-gap: 48px 40px;
+    grid-gap: 20px 15px;
     list-style: none;
     justify-items: center;
-    grid-template-areas:
-        "title website"
-        "image paragrah";
     align-items: stretch;
     justify-content: center;
+    height: min-content;
+}
+
+.textBlock{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    grid-area: paragrah;
+}
+
+.fotoLeft {
+    grid-template-areas:
+        "title title"
+        "image paragrah";
+}
+
+.fotoRight {
+    grid-template-areas:
+        "title title"
+        "paragrah image";
 }
 
 .person:last-of-type {
     margin-bottom: 0;
 }
 
-@media screen and (max-width: 1279px) and (min-width: 1024px),
-    screen and (max-device-width: 1279px) and (min-device-width: 1024px) {
-    .person {
-        /*padding: 0 48px 0 48px;*/
-
-        grid-template-rows: min-content minmax(min-content, 1fr);
-        grid-template-columns: 440px 456px;
-        grid-gap: 48px 32px;
-        margin-bottom: 80px;
-    }
-}
 
 @media screen and (max-width: 1023px) and (min-width: 768px),
     screen and (max-device-width: 1023px) and (min-device-width: 768px) {
@@ -38,9 +45,7 @@
         padding: 0 24px 0 24px;
         margin-bottom: 73px;
         grid-template-rows: min-content min-content;
-        grid-template-columns: 340px minmax(min-content, 1fr);
-        grid-gap: 48px 28px;
-        margin-bottom: 72px;
+        grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 1fr);
     }
 }
 

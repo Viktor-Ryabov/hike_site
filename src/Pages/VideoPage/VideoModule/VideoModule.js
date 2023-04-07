@@ -7,7 +7,7 @@ export const VideoModule = (props) => {
             <p className={Styles.dateVideo}>{props.date}</p>
             <video
                 controls
-                autoPlay={true}
+                autoPlay={false}
                 loop
                 muted
                 src={props.src}
