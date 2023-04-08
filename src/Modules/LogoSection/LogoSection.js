@@ -1,5 +1,4 @@
 import Styles from "./LogoSection.module.css";
-import LogoMountains from "../../UI/LogoMountains/LogoMountains";
 import Logo from "../../UI/Logo/Logo";
 import { Link } from "react-router-dom";
 
