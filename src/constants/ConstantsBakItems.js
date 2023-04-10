@@ -17,7 +17,7 @@ import foto16 from "../Images/oneDayHike/16.jpg";
 import foto17 from "../Images/oneDayHike/17.jpg";
 import foto18 from "../Images/oneDayHike/18.jpg";
 
-import { bankFoto } from "./bankFoto";
+import { bankFoto } from "./BankFoto";
 
 export const hikeOneDayArray = [
     {
