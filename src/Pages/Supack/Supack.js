@@ -1,15 +1,10 @@
 import Styles from "./Supack.module.css";
 
 const Supack = () => {
-  return (
-    <section className={Styles.page}>
-      MainBlok        
-      DiscriptionBlock
-        Image
-        article
-      OrderBlock
-    </section>
-    )
-}
+    return (
+        <section className={Styles.page}>
+        </section>
+    );
+};
 
-export default Supack
+export default Supack;
