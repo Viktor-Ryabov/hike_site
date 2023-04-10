@@ -4,7 +4,7 @@ import fotoVaran from "../../../Images/Varan_foto.jpeg";
 
 export const persons ={
     Natali: {
-        textHello: "Привет! Меня зовут Наталья.",
+        textHello: "Привет!",
         textAbout: "Я могу организовать для Вас крутое мероприятине на открытом воздухе, безопасно сводить Вас в гор.",
         textAbout2: "Занимаюсь альпинизмом и горным туризмом с 2015 года.",
         image: fotoNata,
@@ -12,7 +12,7 @@ export const persons ={
         orientation: "Left",
     },
     Vika: {
-        textHello: "Привет! меня зовут Виктор.",
+        textHello: "Привет!",
         textAbout: "Могу организовать Вам крутой отдых на природе, сводить безопасно в горы или на скалы.",
         textAbout2: "Занимаюсь альпинизмом и горным туризмом с 2015 года.",
         image: fotoVika,
@@ -20,7 +20,7 @@ export const persons ={
         orientation: "Right",
     },
     Varan: {
-        textHello: "Привет! Меня зовут Варюня",
+        textHello: "Привет!",
         textAbout2: "А еще, я рисую классные принты для походных футболок. Хотите и Вам нарисую?",
         textAbout: "Занимаюсь горным туризмом с 2019 года.",
         image: fotoVaran,
