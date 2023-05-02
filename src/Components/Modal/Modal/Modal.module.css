@@ -72,6 +72,7 @@
     justify-content: flex-start;
     color: aliceblue;
     width: 100%;
+    
 }
 .connectionSection {
     margin: 0 0 0 0;
@@ -110,13 +111,21 @@
     font-size: 16px;
     /* padding: 5px; */
     color: aliceblue;
+
+
+}
+
+.textBlock{
     width: 100%;
     text-align: justify;
-    max-height: 300px;
+    height: calc(100% - 88px);
     overflow-y: auto;
 }
 
 @media screen and (max-width: 800px) {
+    .discription{
+        height: calc(100% - 152px);
+    }
     .modalContainer {
         margin: auto;
         width: 95%;
@@ -137,6 +146,6 @@
         font-size: 12px;
     }
     .text{
-        font-size: 10px;
+        font-size: 12px;
     }
 }
