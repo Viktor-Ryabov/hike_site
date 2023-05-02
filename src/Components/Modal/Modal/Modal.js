@@ -52,6 +52,12 @@ const Modal = ({ ...props }) => {
                         <p className={Styles.text}>
                             {props.cardDataFormodal.discription1}
                         </p>
+                        <p className={Styles.text}>
+                            {props.cardDataFormodal.discription2}
+                        </p>
+                        <p className={Styles.text}>
+                            {props.cardDataFormodal.discription3}
+                        </p>
                     </div>
                     {/* <CaptureForm /> */}
                    

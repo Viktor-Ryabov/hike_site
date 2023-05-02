@@ -3,7 +3,6 @@ import Styles from "./GoodsZone.module.css";
 
 const GoodsZone = (props) => {
     const hikesArray = props.hikesArray;
-    // console.log(hikesArray)
     return (
         <ul className={Styles.goodsZone}>
             {hikesArray.map((hike) => (
