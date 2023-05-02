@@ -6,7 +6,9 @@ import MainVideo from "./Modules//MainVideo/MainVideo";
 
 const Main = () => {
     return (
+        
         <section className={Styles.main}>
+            <meta name="description" content="Походы в Крыму, скалолазание в Крыму, виа феррата Севастополь, десткие походы в Крыму. "/>
             <MainVideo />
             <TabBarProducts />
         </section>
