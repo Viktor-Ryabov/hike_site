@@ -65,14 +65,14 @@ const TabBarProducts = () => {
     console.log(toggleState);
 
     return (
-        <section className={Styles.container}>
+        <section className={Styles.container} id="products">
             <Modal
                 active={modalActive}
                 setModalDisabled={setModalDisabled}
                 cardDataFormodal={cardDataFormodal}
             />
 
-            <h1 className={Styles.h1} id="products">
+            <h1 className={Styles.h1}>
                 Варианты активного отдыха:
             </h1>
 
@@ -116,35 +116,3 @@ const TabBarProducts = () => {
     );
 };
 export default TabBarProducts;
-
-{
-    /* <TabBatButton
-                    toggleState={toggleState}
-                    toggleTab={toggleTab}
-                    text={podsObject.three}
-                    numberTab={3}
-                /> */
-}
-{
-    /* <TabBatButton
-                    toggleState={toggleState}
-                    toggleTab={toggleTab}
-                    text={podsObject.four}
-                    numberTab={4}
-                /> */
-}
-
-{
-    /* <TabBatButton
-                    toggleState={toggleState}
-                    toggleTab={toggleTab}
-                    text={podsObject.five}
-                    numberTab={5}
-                />
-                <TabBatButton
-                    toggleState={toggleState}
-                    toggleTab={toggleTab}
-                    text={podsObject.six}
-                    numberTab={6}
-                /> */
-}
