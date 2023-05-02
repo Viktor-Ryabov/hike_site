@@ -30,38 +30,27 @@ const Modal = ({ ...props }) => {
                 <div className={Styles.closeIcon}>
                     <CloseIcon {...props} />
                 </div>
-                {/* <img
-                    src={props.cardDataFormodal.image}
-                    className={Styles.image}
-                    alt={props.cardDataFormodal.name}
-                /> */}
                 <div className={Styles.discription}>
-                        <h3 className={Styles.h3}>
-                            {props.cardDataFormodal.name}
-                        </h3>
-                        <p className={Styles.dataText}>
-                            {props.cardDataFormodal.hikeLengthTitle}{" "}
-                            {props.cardDataFormodal.hikeLength}
-                        </p>
-                        <p className={Styles.dataText}>
-                            {props.cardDataFormodal.droptitle}{" "}
-                            {props.cardDataFormodal.drop}
-                        </p>
+                    <h3 className={Styles.h3}>{props.cardDataFormodal.name}</h3>
+                    <p className={Styles.dataText}>
+                        {props.cardDataFormodal.hikeLengthTitle}{" "}
+                        {props.cardDataFormodal.hikeLength}
+                    </p>
+                    <p className={Styles.dataText}>
+                        {props.cardDataFormodal.droptitle}{" "}
+                        {props.cardDataFormodal.drop}
+                    </p>
 
-                        <div className={Styles.textBlock}>
-                            <p className={Styles.text}>
-                                {props.cardDataFormodal.discription1}
-                            </p>
-                            <p className={Styles.text}>
-                                {props.cardDataFormodal.discription2}
-                            </p>
-                            <p className={Styles.text}>
-                                {props.cardDataFormodal.discription3}
-                            </p>
-                        </div>
-                    {/* <CaptureForm /> */}
+                    <div className={Styles.textBlock}>
+                        {props.cardDataFormodal.discription1
+                            ? props.cardDataFormodal.discription1.map(
+                                  (element) => (
+                                      <p className={Styles.text}>{element}</p>
+                                  )
+                              )
+                            : ""}
+                    </div>
                 </div>
-                {/* <CaptureForm /> */}
                 <div className={Styles.connectionSection}>
                     <div className={Styles.brand_title}>
                         Записывайтесь прямо сейчас!
