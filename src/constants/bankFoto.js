@@ -26,6 +26,10 @@ import climbing_foto6 from "../Images/climbing/14_km.jpg"
 import climbing_foto7 from "../Images/climbing/uarch_kaya.jpg"
 import climbing_foto8 from "../Images/climbing/Simeiz.jpg"
 
+import viaFerrata_foto1 from "../Images/viaFerrata/batiliman-laspi.jpg"
+import viaFerrata_foto2 from "../Images/viaFerrata/Delikli-Burun.jpg"
+import viaFerrata_foto3 from "../Images/viaFerrata/ilias-kaja.jpg"
+
 
 export const bankFoto = {
     oneDayHike: {
@@ -58,5 +62,11 @@ export const bankFoto = {
         foto7: climbing_foto7,
         foto8: climbing_foto8,
     },
+    viaFerrata:
+    {
+        foto1: viaFerrata_foto1,
+        foto2: viaFerrata_foto2,
+        foto3: viaFerrata_foto3,
+    }
 }
 

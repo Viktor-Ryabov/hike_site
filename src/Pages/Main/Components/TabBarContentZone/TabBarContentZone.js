@@ -2,7 +2,6 @@ import Styles from "./TabBarContentZone.module.css";
 import GoodsZone from "../GoodsZone/GoodsZone";
 
 const TabBarContentZone = (props) => {
-    // console.log(`TabBarContentZone: ${props}`);
     return (
         <>
             <div

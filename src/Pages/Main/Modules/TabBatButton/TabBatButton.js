@@ -3,7 +3,7 @@ import { Scrollchor } from "react-scrollchor";
 
 const TabBatButton = (props) => {
     return (
-        <Scrollchor  className={Styles.anchor}>
+        <Scrollchor  to="#products" className={Styles.anchor}>
             <button
                 className={`${
                     props.toggleState === props.numberTab

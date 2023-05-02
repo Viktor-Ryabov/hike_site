@@ -12,7 +12,6 @@ import {
     viaFerrata,
     kavkazLongHike,
 } from "../../../../constants/ConstantsBakItems.js";
-import { Scrollchor } from "react-scrollchor";
 
 const podsObject = {
     one: "Поход выходного дня",
@@ -63,6 +62,7 @@ const TabBarProducts = () => {
                 return hikeOneDayArray;
         }
     };
+    console.log(toggleState);
 
     return (
         <section className={Styles.container}>
@@ -71,14 +71,12 @@ const TabBarProducts = () => {
                 setModalDisabled={setModalDisabled}
                 cardDataFormodal={cardDataFormodal}
             />
-            
-                <h1 className={Styles.h1} id="products">
-                    Варианты активного отдыха:
-                </h1>
-            
 
-            
-<Scrollchor to="#products" className={Styles.bloc_tabs}>
+            <h1 className={Styles.h1} id="products">
+                Варианты активного отдыха:
+            </h1>
+
+            <div className={Styles.bloc_tabs}>
                 <TabBatButton
                     toggleState={toggleState}
                     toggleTab={toggleTab}
@@ -102,11 +100,12 @@ const TabBarProducts = () => {
                     toggleState={toggleState}
                     toggleTab={toggleTab}
                     text={podsObject.eight}
-                    numberTab={7}
+                    numberTab={8}
                 />
-            </Scrollchor>
+            </div>
 
             <TabBarContentZone
+                // title={}
                 toggleState={toggleState}
                 numerTab={toggleState}
                 data={productsSwitcher()}
