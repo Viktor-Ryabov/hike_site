@@ -1,4 +1,4 @@
-import Modal from "../../../../Components/Modal/Modal/Modal.js"
+import Modal from "../../../../Components/Modal/Modal/Modal.js";
 import Styles from "./TabBarProducts.module.css";
 import React from "react";
 import { useState } from "react";
@@ -9,7 +9,10 @@ import {
     excursionsArray,
     climbingArray,
     questArray,
+    viaFerrata,
+    kavkazLongHike,
 } from "../../../../constants/ConstantsBakItems.js";
+import { Scrollchor } from "react-scrollchor";
 
 const podsObject = {
     one: "Поход выходного дня",
@@ -18,6 +21,8 @@ const podsObject = {
     four: "Скалолазание",
     five: "Походы",
     six: "Детские походы",
+    seven: "Виа феррата",
+    eight: "Многодневка по Кавказу",
 };
 
 const TabBarProducts = () => {
@@ -27,7 +32,7 @@ const TabBarProducts = () => {
 
     const setModalDisabled = () => {
         setModalActive(false);
-    }
+    };
 
     const toggleTab = (index) => {
         setToggleState(index);
@@ -50,6 +55,10 @@ const TabBarProducts = () => {
                 return excursionsArray;
             case 6:
                 return excursionsArray;
+            case 7:
+                return viaFerrata;
+            case 8:
+                return kavkazLongHike;
             default:
                 return hikeOneDayArray;
         }
@@ -57,50 +66,46 @@ const TabBarProducts = () => {
 
     return (
         <section className={Styles.container}>
-            <Modal active={modalActive} setModalDisabled={setModalDisabled} cardDataFormodal={cardDataFormodal}/>
-            <h1 className={Styles.h1} id="products">
-                Варианты активного отдыха:
-            </h1>
-            <div className={Styles.bloc_tabs}>
+            <Modal
+                active={modalActive}
+                setModalDisabled={setModalDisabled}
+                cardDataFormodal={cardDataFormodal}
+            />
+            
+                <h1 className={Styles.h1} id="products">
+                    Варианты активного отдыха:
+                </h1>
+            
+
+            
+<Scrollchor to="#products" className={Styles.bloc_tabs}>
                 <TabBatButton
                     toggleState={toggleState}
                     toggleTab={toggleTab}
                     text={podsObject.one}
                     numberTab={1}
                 />
-                {/* <TabBatButton
-                    toggleState={toggleState}
-                    toggleTab={toggleTab}
-                    text={podsObject.two}
-                    numberTab={2}
-                /> */}
-                {/* <TabBatButton
-                    toggleState={toggleState}
-                    toggleTab={toggleTab}
-                    text={podsObject.three}
-                    numberTab={3}
-                /> */}
                 <TabBatButton
                     toggleState={toggleState}
                     toggleTab={toggleTab}
                     text={podsObject.four}
                     numberTab={4}
                 />
-                {/* <TabBatButton
+
+                <TabBatButton
                     toggleState={toggleState}
                     toggleTab={toggleTab}
-                    text={podsObject.five}
-                    numberTab={5}
+                    text={podsObject.seven}
+                    numberTab={7}
                 />
                 <TabBatButton
                     toggleState={toggleState}
                     toggleTab={toggleTab}
-                    text={podsObject.six}
-                    numberTab={6}
-                /> */}
-            </div>
+                    text={podsObject.eight}
+                    numberTab={7}
+                />
+            </Scrollchor>
 
-            {/* <div className={Styles.content_tabs}> */}
             <TabBarContentZone
                 toggleState={toggleState}
                 numerTab={toggleState}
@@ -112,3 +117,35 @@ const TabBarProducts = () => {
     );
 };
 export default TabBarProducts;
+
+{
+    /* <TabBatButton
+                    toggleState={toggleState}
+                    toggleTab={toggleTab}
+                    text={podsObject.three}
+                    numberTab={3}
+                /> */
+}
+{
+    /* <TabBatButton
+                    toggleState={toggleState}
+                    toggleTab={toggleTab}
+                    text={podsObject.four}
+                    numberTab={4}
+                /> */
+}
+
+{
+    /* <TabBatButton
+                    toggleState={toggleState}
+                    toggleTab={toggleTab}
+                    text={podsObject.five}
+                    numberTab={5}
+                />
+                <TabBatButton
+                    toggleState={toggleState}
+                    toggleTab={toggleTab}
+                    text={podsObject.six}
+                    numberTab={6}
+                /> */
+}

@@ -1,0 +1,244 @@
+.studyComposition {
+    margin: 0;
+    padding: 0 0 40px 0;
+    max-width: 100%;
+    background-color: #e1b16a;
+    display: grid;
+    grid-template-areas: "blockName foto" "title foto" "text_1 foto" "text_2 foto" "button foto" "rules rules";
+}
+.blockName {
+    margin: 50px 0 50px 54px;
+    padding: 0;
+    font-size: 18px;
+    line-height: 28px;
+    grid-area: blockName;
+    color: #000000;
+    text-transform: uppercase;
+}
+.title {
+    margin: 0 24px 100px 50px;
+    padding: 0;
+    font-size: 55px;
+    line-height: 60px;
+    max-width: 650px;
+    grid-area: title;
+    color: #000000;
+}
+.text {
+    margin: 0 0 20px 54px;
+    padding: 0;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+    grid-area: text_1;
+    max-width: 400px;
+}
+.text_link {
+    font-size: 18px;
+    line-height: 28px;
+    list-style: none;
+    list-style-type: none;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: #000000;
+}
+.text_2 {
+    margin: 0 0 198px 54px;
+    padding: 0;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+    grid-area: text_2;
+    max-width: 400px;
+}
+.button {
+    margin: 0 0 0 50px;
+    padding: 0;
+    list-style: none;
+    list-style-type: none;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    line-height: 133%;
+    grid-area: button;
+    color: #000000;
+    background-color: #ffffff;
+    width: 228px;
+    height: 49px;
+    border: 1px solid #000000;
+    border-radius: 24.5px;
+    grid-area: button;
+}
+.button:hover {
+    font-size: 18px;
+    line-height: 28px;
+}
+.foto {
+    margin: 50px 50px 0 0;
+    padding: 0;
+    grid-area: foto;
+    max-width: calc(100% - 50px);
+}
+.rules {
+    margin: 100px 54px 50px 54px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+    align-content: center;
+    grid-area: rules;
+}
+.compositionRule {
+    margin: 0;
+    padding: 0;
+    width: 291px;
+    font-size: 18px;
+    line-height: 28px;
+    list-style: none;
+    list-style-type: none;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    cursor: none;
+}
+
+@media (max-width: 1440px) {
+    .studyComposition {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+    }
+    .blockName {
+        margin: 40px auto 40px 44px;
+    }
+    .title {
+        max-width: 617px;
+        margin: 40px auto 60px 40px;
+    }
+    .text {
+        max-width: 469px;
+        margin: 0 auto 60px 44px;
+    }
+    .text_2 {
+        max-width: 469px;
+        margin: 0 auto 60px 44px;
+    }
+    .button {
+        max-width: 100%;
+        margin: 0 auto 40px 40px;
+        justify-self: flex-start;
+    }
+    .foto {
+        width: calc(100% - 80px);
+        margin: 0 40px 60px 40px;
+    }
+    .rules {
+        width: 100%;
+        margin: 0 40px 40px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+    }
+    .compositionRule {
+        width: calc(100% - 80px);
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-bottom: #000000 solid 1px;
+    }
+    .compositionRule:last-of-type {
+        padding-bottom: 40px;
+        border-bottom: none;
+    }
+}
+@media (max-width: 700px) {
+    .studyComposition {
+        max-width: 100%;
+    }
+    .blockName {
+        width: calc(100% - 40px);
+        border-top: 1px solid #000000;
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0 20px 30px 20px;
+        padding: 20px 0 0 0;
+        margin-top: 40px;
+    }
+    .title {
+        max-width: 282px;
+        margin: 14px auto 60px 20px;
+        font-size: 30px;
+        line-height: 38px;
+        max-width: calc(100% - 40px);
+    }
+    .text {
+        margin: 0 20px 30px 20px;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: left;
+        width: calc(100% - 40px);
+        max-width: none;
+    }
+    .text_link {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .text_2 {
+        margin: 0 20px 30px 20px;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: left;
+        width: calc(100% - 40px);
+        max-width: none;
+    }
+    .button {
+        max-width: 100%;
+        margin: 0 auto 80px 20px;
+    }
+    .foto {
+        width: calc(100% - 40px);
+        margin: 0 20px 60px 20px;
+    }
+    .rules {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+    }
+    .compositionRule {
+        margin: 0 20px 30px 20px;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: left;
+        width: calc(100% - 40px);
+        max-width: none;
+        margin: 14px 20px 0 20px;
+        padding: 0 0 14px 0;
+        width: calc(100% - 40px);
+        border-bottom: #000000 solid 1px;
+    }
+    .compositionRule:last-of-type {
+        padding-bottom: 20px;
+        border-bottom: none;
+    }
+    .compositionRule:first-of-type {
+        padding-top: 0;
+    }
+}

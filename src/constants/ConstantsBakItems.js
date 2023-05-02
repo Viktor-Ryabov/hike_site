@@ -517,3 +517,58 @@ export const climbingArray = [
         discription1: "",
     },
 ];
+export const kavkazLongHike = [
+    {
+        id: 1,
+        category: "kavkazLongHike",
+        hikeLengthTitle: "Длительность: ",
+        hikeLength: "10",
+        dificult: "Средняя сложность",
+        name: "Многодневный поход-Кавказ",
+        cost: "от 15 000",
+        costTitle: "/ чел.",
+        image: bankFoto.climbing.foto3,
+        discription1: "",
+    },
+    
+  
+];
+export const viaFerrata = [
+    {
+        id: 1,
+        category: "viaFerrata",
+        hikeLengthTitle: "Протяжённость: ",
+        hikeLength: "__",
+        dificult: "Сложный",
+        name: "Вия феррата на Ильяс-Кая",
+        cost: 1300,
+        costTitle: "/ чел.",
+        image: bankFoto.climbing.foto3,
+        discription1: "",
+    },
+    {
+        id: 2,
+        category: "viaFerrata",
+        hikeLengthTitle: "Протяжённость: ",
+        hikeLength: "__",
+        dificult: "Средний",
+        name: "Вия феррата на Ильяс-Кая",
+        cost: 1300,
+        costTitle: "/ чел.",
+        image: bankFoto.climbing.foto3,
+        discription1: "",
+    },
+    {
+        id: 3,
+        category: "viaFerrata",
+        hikeLengthTitle: "Протяжённость: ",
+        hikeLength: "__",
+        dificult: "Лёгкий",
+        name: "Вия феррата на Ильяс-Кая",
+        cost: 1300,
+        costTitle: "/ чел.",
+        image: bankFoto.climbing.foto3,
+        discription1: "",
+    },
+  
+];
